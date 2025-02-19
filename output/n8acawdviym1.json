@@ -1,0 +1,18 @@
+{
+    "55ryoipjfdr.exe": {
+        "file_name": "55ryoipjfdr.exe",
+        "file_size": 396288,
+        "file_type": "exe",
+        "signature": "TrickBot",
+        "reporter": "joker651181",
+        "sha256_hash": "068af8016c36fce5cf1e1a4722c1dc0d6e02cb6ed58b61c2ba99a54d294cc274"
+    },
+    "Potvrda_o_uplati.docx": {
+        "file_name": "Potvrda_o_uplati.docx",
+        "file_size": 91422,
+        "file_type": "doc",
+        "signature": "TrickBot",
+        "reporter": "nfsec_pl",
+        "sha256_hash": "f59ed31f271d90f65b0ef6c34aaedec49993551818f7566968a944dafb7d36b4"
+    }
+}

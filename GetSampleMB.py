@@ -16,9 +16,10 @@ from colorama import init, Fore, Back, Style
 init()
 
 class GetSample():
-    def __init__(self, tag, limit):
+    def __init__(self, tag, limit=2, option=False):
         self.tag = tag
         self.limit = limit
+        self.option = option
 
     def generate_file_name(self):
         length = 12
@@ -43,7 +44,7 @@ class GetSample():
 
     def find_for_tag(self):
         print('0 - Definir variáveis locais')
-        capture_values, saves = {}, {}
+        capture_values, saves, data = {}, {}, {}
 
         headers = {
             'Auth-Key': getenv('AUTH'),
@@ -54,9 +55,10 @@ class GetSample():
 
         current_path = getcwd()
 
-        data = {'query': 'get_taginfo',
-                'tag': self.tag,
-                'limit': self.limit}
+        if self.limit > 0:
+            data = {'query': 'get_taginfo',
+                    'tag': self.tag,
+                    'limit': self.limit}
 
         try:
             print('1 - Requisição para o MalwareBaazar')
@@ -75,12 +77,15 @@ class GetSample():
                         'sha256_hash': save['sha256_hash']}
                     
                     capture_values[file_name] = obj
-                    
+                
+                print('3 - Printando os valores encontrados')
                 print(dumps(capture_values, indent=4))
-                print('3 - Salvando os valores encontrados e mostrando na tela')
-                file_name=self.generate_file_name()
-                with open(f'{current_path}/output/{file_name}.json', 'a') as f:
-                    f.write(dumps(capture_values, ensure_ascii=False, indent=4))
+
+                if self.option:
+                    file_name=self.generate_file_name()
+                    print('4 - Baixando os valores encontrados na pasta output')
+                    with open(f'{current_path}/output/{file_name}.json', 'a') as f:
+                        f.write(dumps(capture_values, ensure_ascii=False, indent=4))
 
         except Exception as e:
             print('Error in {}'.format(e))    
@@ -89,11 +94,12 @@ def main():
     parser = ArgumentParser(description="Busca amostras de malware por tag")
     
     parser.add_argument("tag", type=str, help="Nome da tag para busca (exemplo: TrickBot)")
-    parser.add_argument("limit", type=int, help="Linhas de busca")
+    parser.add_argument("-l", "--limit", type=int, default=2, help="Linhas de busca")
+    parser.add_argument("-o", "--option", action="store_true", help="Habilita o download do resultado em formato json")
 
     args = parser.parse_args()
 
-    GetSampleObj = GetSample(args.tag, args.limit)
+    GetSampleObj = GetSample(args.tag, args.limit, args.option)
     GetSampleObj.banner()
     GetSampleObj.find_for_tag()
 

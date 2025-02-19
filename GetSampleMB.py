@@ -4,9 +4,8 @@
 # Version: v1.0
 
 from requests import post
-from dotenv import load_dotenv
+from argparse import ArgumentParser
 from os import getenv
-import argparse
 from json import dumps
 from random import choices
 from string import ascii_lowercase
@@ -87,7 +86,7 @@ class GetSample():
             print('Error in {}'.format(e))    
 
 def main():
-    parser = argparse.ArgumentParser(description="Busca amostras de malware por tag")
+    parser = ArgumentParser(description="Busca amostras de malware por tag")
     
     parser.add_argument("tag", type=str, help="Nome da tag para busca (exemplo: TrickBot)")
     parser.add_argument("limit", type=int, help="Linhas de busca")

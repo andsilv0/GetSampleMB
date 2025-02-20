@@ -12,7 +12,7 @@
 [00] - Create file .env with variable in current directory 
 
 [01] - Example file content:
-  AUTH='69d00b49efaffec4821af2e72039803b575d4c26c7e11b1e1f1dc59c6ee926cf'
+AUTH='69d00b49efaffec4821af2e72039803b575d4c26c7e11b1e1f1dc59c6ee926cf'
 
 [02] -
 python -m venv .venv

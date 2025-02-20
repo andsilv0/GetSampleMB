@@ -16,17 +16,20 @@
 
 --------
 
-usage: GetSampleMB.py [-h] [-l LIMIT] [-o] tag
+usage: GetSampleMB.py [-h] [-t [TAG]] [-l LIMIT] [-f FILE_TYPE] [-ha HASH] [-o]
 
-Busca amostras de malware por tag
-
-positional arguments:
-  tag                   Nome da tag para busca (exemplo: TrickBot)
+Busca amostras e faz download de malware
 
 options:
   -h, --help            show this help message and exit
+  -t [TAG], --tag [TAG]
+                        Se ativa a opção, é possível pesquisar por tag (exemplo: TrickBot)
   -l LIMIT, --limit LIMIT
-                        Linhas de busca
+                        Quantidade de linhas para a consulta, padrão 2
+  -f FILE_TYPE, --file_type FILE_TYPE
+                        Se ativa a opção, é possível pesquisar por extensão do arquivo
+  -ha HASH, --hash HASH
+                        Se ativa a opção, é possível pesquisar por hash do arquivo
   -o, --option          Habilita o download do resultado em formato json
 
 ```

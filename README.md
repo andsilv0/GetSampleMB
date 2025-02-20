@@ -11,7 +11,7 @@
 
 [00] - Create file .env with variable in current directory 
 
-[01] - Example:
+[01] - Example file content:
   AUTH='69d00b49efaffec4821af2e72039803b575d4c26c7e11b1e1f1dc59c6ee926cf'
 
 [02] -
@@ -40,13 +40,13 @@ options:
 
 ## Example
 
-### Search by tag
+### Search by tag, by default the last two most recent values
 `python GetSampleMB.py -t TrickBot`
 
-### Search by file extension
+### Search by file extension, by default the last two most recent values
 `python GetSampleMB.py -f exe`
 
-### Search by hash
+### Search by hash, by default the last two most recent values
 `python GetSampleMB.py -ha 7de2c1bf58bce09eecc70476747d88a26163c3d6bb1d85235c24a558d1f16754`
 
 

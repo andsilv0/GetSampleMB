@@ -11,38 +11,42 @@
 
 [00] - Create file .env with variable in current directory 
 
-[1] - Example:
+[01] - Example:
   AUTH='69d00b49efaffec4821af2e72039803b575d4c26c7e11b1e1f1dc59c6ee926cf'
 
+[02] -
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 --------
 
 usage: GetSampleMB.py [-h] [-t [TAG]] [-l LIMIT] [-f FILE_TYPE] [-ha HASH] [-o]
 
-Busca amostras e faz download de malware
+Search for samples and download malware https://bazaar.abuse.ch/
 
 options:
   -h, --help            show this help message and exit
   -t [TAG], --tag [TAG]
-                        Se ativa a opção, é possível pesquisar por tag (exemplo: TrickBot)
+                        If you enable the option, you can search by tag (example: TrickBot)
   -l LIMIT, --limit LIMIT
-                        Quantidade de linhas para a consulta, padrão 2
+                        Number of search results, default two
   -f FILE_TYPE, --file_type FILE_TYPE
-                        Se ativa a opção, é possível pesquisar por extensão do arquivo
+                        If you enable the option, you can search by file extension
   -ha HASH, --hash HASH
-                        Se ativa a opção, é possível pesquisar por hash do arquivo
-  -o, --option          Habilita o download do resultado em formato json
+                        If you enable the option, you can search by file hash
+  -o, --option          Enables downloading of the result in json format
 
 ```
 
 ## Example
 
-### Pesquisar por tag 
+### Search by tag
 `python GetSampleMB.py -t TrickBot`
 
-### Pesquisar por extensão de arquivo 
+### Search by file extension
 `python GetSampleMB.py -f exe`
 
-### Pesquisar por hash 
+### Search by hash
 `python GetSampleMB.py -ha 7de2c1bf58bce09eecc70476747d88a26163c3d6bb1d85235c24a558d1f16754`
 
 

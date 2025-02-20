@@ -43,7 +43,7 @@ class GetSample():
         print(Fore.GREEN + f'{var}')
 
     def list_for_tag(self, tag):
-        print('0 - Definir variáveis locais')
+        print('0 - Define local variables')
         capture_values, saves, data = {}, {}, {}
 
         headers = {
@@ -61,12 +61,12 @@ class GetSample():
                     'limit': self.limit}
 
         try:
-            print('1 - Requisição para o MalwareBaazar')
+            print('1 - Request to MalwareBaazar')
             req = post(url, data=data, headers=headers)
 
             if req.status_code == 200:
                 saves = req.json()
-                print('2 - Laço de repetição para armazenar os valores encontrados')
+                print('2 - Loop to store the values ​​found')
                 for save in saves['data']:
                     file_name = save['file_name']
                     obj = {'file_name': save['file_name'],
@@ -78,12 +78,12 @@ class GetSample():
                     
                     capture_values[file_name] = obj
                 
-                print('3 - Printando os valores encontrados')
+                print('3 - Printing the found values')
                 print(dumps(capture_values, indent=4))
 
                 if self.option:
                     file_name=self.generate_file_name()
-                    print('4 - Baixando os valores encontrados na pasta output')
+                    print('4 - Downloading the values ​​found in the output folder')
                     with open(f'{current_path}/output/{file_name}.json', 'a') as f:
                         f.write(dumps(capture_values, ensure_ascii=False, indent=4))
 
@@ -91,7 +91,7 @@ class GetSample():
             print('Error in {}'.format(e))    
 
     def list_for_filetype(self, file_type):
-        print('0 - Definir variáveis locais')
+        print('0 - Define local variables')
         capture_values, saves, data = {}, {}, {}
 
         headers = {
@@ -109,12 +109,12 @@ class GetSample():
                     'limit': self.limit}
 
         try:
-            print('1 - Requisição para o MalwareBaazar')
+            print('1 - Request to MalwareBaazar')
             req = post(url, data=data, headers=headers)
 
             if req.status_code == 200:
                 saves = req.json()
-                print('2 - Laço de repetição para armazenar os valores encontrados')
+                print('2 - Loop to store the values ​​found')
                 for save in saves['data']:
                     file_name = save['file_name']
                     obj = {'file_name': save['file_name'],
@@ -126,12 +126,12 @@ class GetSample():
                     
                     capture_values[file_name] = obj
                 
-                print('3 - Printando os valores encontrados')
+                print('3 - Printing the found values')
                 print(dumps(capture_values, indent=4))
 
                 if self.option:
                     file_name=self.generate_file_name()
-                    print('4 - Baixando os valores encontrados na pasta output')
+                    print('4 - Downloading the values ​​found in the output folder')
                     with open(f'{current_path}/output/{file_name}.json', 'a') as f:
                         f.write(dumps(capture_values, ensure_ascii=False, indent=4))
 
@@ -139,7 +139,7 @@ class GetSample():
             print('Error in {}'.format(e))   
 
     def list_for_hash(self, hash):
-            print('0 - Definir variáveis locais')
+            print('0 - Define local variables')
             capture_values, saves, data = {}, {}, {}
 
             headers = {
@@ -157,12 +157,12 @@ class GetSample():
                         'limit': self.limit}
 
             try:
-                print('1 - Requisição para o MalwareBaazar')
+                print('1 - Request to MalwareBaazar')
                 req = post(url, data=data, headers=headers)
 
                 if req.status_code == 200:
                     saves = req.json()
-                    print('2 - Laço de repetição para armazenar os valores encontrados')
+                    print('2 - Loop to store the values ​​found')
                     for save in saves['data']:
                         file_name = save['file_name']
                         obj = {'file_name': save['file_name'],
@@ -174,21 +174,20 @@ class GetSample():
                         
                         capture_values[file_name] = obj
                     
-                    print('3 - Printando os valores encontrados')
+                    print('3 - Printing the found values')
                     print(dumps(capture_values, indent=4))
 
                     if self.option:
                         file_name=self.generate_file_name()
-                        print('4 - Baixando os valores encontrados na pasta output')
+                        print('4 - Downloading the values ​​found in the output folder')
                         with open(f'{current_path}/output/{file_name}.json', 'a') as f:
                             f.write(dumps(capture_values, ensure_ascii=False, indent=4))
 
             except Exception as e:
                 print('Error in {}'.format(e))   
 
-
 def main():
-    parser = ArgumentParser(description="Busca amostras e faz download de malware")
+    parser = ArgumentParser(description="Search for samples and download malware")
     
     parser.add_argument("-t", "--tag", type=str, nargs="?", help="If you enable the option, you can search by tag (example: TrickBot)")
     parser.add_argument("-l", "--limit", type=int, default=2, help="Number of search results, default two")

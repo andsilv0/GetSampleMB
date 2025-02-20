@@ -190,11 +190,11 @@ class GetSample():
 def main():
     parser = ArgumentParser(description="Busca amostras e faz download de malware")
     
-    parser.add_argument("-t", "--tag", type=str, nargs="?", help="Se ativa a opção, é possível pesquisar por tag (exemplo: TrickBot)")
-    parser.add_argument("-l", "--limit", type=int, default=2, help="Quantidade de linhas para a consulta, padrão 2")
-    parser.add_argument("-f", "--file_type", type=str, help="Se ativa a opção, é possível pesquisar por extensão do arquivo")
-    parser.add_argument("-ha", "--hash", type=str, help="Se ativa a opção, é possível pesquisar por hash do arquivo")
-    parser.add_argument("-o", "--option", action="store_true", help="Habilita o download do resultado em formato json")
+    parser.add_argument("-t", "--tag", type=str, nargs="?", help="If you enable the option, you can search by tag (example: TrickBot)")
+    parser.add_argument("-l", "--limit", type=int, default=2, help="Number of search results, default two")
+    parser.add_argument("-f", "--file_type", type=str, help="If you enable the option, you can search by file extension")
+    parser.add_argument("-ha", "--hash", type=str, help="If you enable the option, you can search by file hash")
+    parser.add_argument("-o", "--option", action="store_true", help="Enables downloading of the result in json format")
 
     args = parser.parse_args()
 

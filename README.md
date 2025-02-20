@@ -36,7 +36,14 @@ options:
 
 ## Example
 
-`python GetSampleMB.py TrickBot -l 1`
+### Pesquisar por tag 
+`python GetSampleMB.py -t TrickBot`
+
+### Pesquisar por extensão de arquivo 
+`python GetSampleMB.py -f exe`
+
+### Pesquisar por hash 
+`python GetSampleMB.py -ha 7de2c1bf58bce09eecc70476747d88a26163c3d6bb1d85235c24a558d1f16754`
 
 
 ## Limitations 

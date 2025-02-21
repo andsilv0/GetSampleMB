@@ -5,8 +5,6 @@
 ## Usage
 
 ```
----
-
 [0] - Create auth_key -> https://auth.abuse.ch/
 
 [00] - Create file .env with variable in current directory 
@@ -18,25 +16,10 @@ AUTH='69d00b49efaffec4821af2e72039803b575d4c26c7e11b1e1f1dc59c6ee926cf'
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
---------
-
-usage: GetSampleMB.py [-h] [-t [TAG]] [-l LIMIT] [-f FILE_TYPE] [-ha HASH] [-o]
-
-Search for samples and download malware https://bazaar.abuse.ch/
-
-options:
-  -h, --help            show this help message and exit
-  -t [TAG], --tag [TAG]
-                        If you enable the option, you can search by tag (example: TrickBot)
-  -l LIMIT, --limit LIMIT
-                        Number of search results, default two
-  -f FILE_TYPE, --file_type FILE_TYPE
-                        If you enable the option, you can search by file extension
-  -ha HASH, --hash HASH
-                        If you enable the option, you can search by file hash
-  -o, --option          Enables downloading of the result in json format
-
 ```
+
+![](Usage.png)
+
 
 ## Example
 

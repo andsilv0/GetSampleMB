@@ -12,6 +12,8 @@ from string import ascii_lowercase
 from string import digits
 from os import getcwd
 from colorama import init, Fore, Back, Style
+from os import makedirs,path
+from zipfile import ZipFile
 
 init()
 
@@ -19,195 +21,167 @@ class GetSample():
     def __init__(self, limit=2, option=False):
         self.limit = limit
         self.option = option
-        
+        self.url = 'https://mb-api.abuse.ch/api/v1/'
+        self.headers = {
+            'Auth-Key': getenv('AUTH'),
+            'User-Agent': 'Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41'
+        }
+        self.current_path = getcwd()
+
+        self.current_path = getcwd()
+        self.samples_path = f"{self.current_path}/samples"
+
+        # Criar a pasta samples caso não exista
+        if not path.exists(self.samples_path):
+            makedirs(self.samples_path)
 
     def generate_file_name(self):
-        length = 12
-        random_string = ''.join(choices(ascii_lowercase + digits, k=length))
-        return random_string
-    
+        return ''.join(choices(ascii_lowercase + digits, k=12))
+
     def banner(self):
         var = """
-
- ▗▄▄▖▗▞▀▚▖   ■   ▗▄▄▖▗▞▀▜▌▄▄▄▄  ▄▄▄▄  █ ▗▞▀▚▖▗▖  ▗▖▗▄▄▖ 
-▐▌   ▐▛▀▀▘▗▄▟▙▄▖▐▌   ▝▚▄▟▌█ █ █ █   █ █ ▐▛▀▀▘▐▛▚▞▜▌▐▌ ▐▌
-▐▌▝▜▌▝▚▄▄▖  ▐▌   ▝▀▚▖     █   █ █▄▄▄▀ █ ▝▚▄▄▖▐▌  ▐▌▐▛▀▚▖
-▝▚▄▞▘       ▐▌  ▗▄▄▞▘           █     █      ▐▌  ▐▌▐▙▄▞▘
-            ▐▌                  ▀                       
-                                                        
-                           v1.0
-                         by nltt0                                      
-
-
-    """
+        ▗▄▄▖▗▞▀▚▖   ■   ▗▄▄▖▗▞▀▜▌▄▄▄▄  ▄▄▄▄  █ ▗▞▀▚▖▗▖  ▗▖▗▄▄▖ 
+        ▐▌   ▐▛▀▀▘▗▄▟▙▄▖▐▌   ▝▚▄▟▌█ █ █ █   █ █ ▐▛▀▀▘▐▛▚▞▜▌▐▌ ▐▌
+        ▐▌▝▜▌▝▚▄▄▖  ▐▌   ▝▀▚▖     █   █ █▄▄▄▀ █ ▝▚▄▄▖▐▌  ▐▌▐▛▀▚▖
+        ▝▚▄▞▘       ▐▌  ▗▄▄▞▘           █     █      ▐▌  ▐▌▐▙▄▞▘
+                    ▐▌                  ▀                       
+                                            
+                               v1.0
+                             by nltt0                                      
+        """
         print(Fore.GREEN + f'{var}')
 
-    def list_for_tag(self, tag):
+    def search(self, query_type, query_value):
         print('0 - Define local variables')
-        capture_values, saves, data = {}, {}, {}
+        capture_values = {}
 
-        headers = {
-            'Auth-Key': getenv('AUTH'),
-            'User-Agent': 'Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41'
+        query_map = {
+            "tag": {"query": "get_taginfo", "param": "tag"},
+            "file_type": {"query": "get_file_type", "param": "file_type"},
+            "hash": {"query": "get_info", "param": "hash"}
         }
 
-        url = 'https://mb-api.abuse.ch/api/v1/'
+        if query_type not in query_map:
+            print(f"Invalid query type: {query_type}")
+            return
 
-        current_path = getcwd()
-
-        if self.limit > 0:
-            data = {'query': 'get_taginfo',
-                    'tag': tag,
-                    'limit': self.limit}
+        data = {"query": query_map[query_type]["query"], query_map[query_type]["param"]: query_value, "limit": self.limit}
 
         try:
-            print('1 - Request to MalwareBaazar')
-            req = post(url, data=data, headers=headers)
+            print(f'1 - Request to MalwareBaazar for {query_type}')
+            req = post(self.url, data=data, headers=self.headers)
 
             if req.status_code == 200:
                 saves = req.json()
                 print('2 - Loop to store the values ​​found')
-                for save in saves['data']:
+                for save in saves.get('data', []):
                     file_name = save['file_name']
-                    obj = {'file_name': save['file_name'],
+                    capture_values[file_name] = {
+                        'file_name': file_name,
                         'file_size': save['file_size'],
                         'file_type': save['file_type'],
                         'signature': save['signature'],
                         'reporter': save['reporter'],
-                        'sha256_hash': save['sha256_hash']}
-                    
-                    capture_values[file_name] = obj
+                        'sha256_hash': save['sha256_hash']
+                    }
                 
                 print('3 - Printing the found values')
                 print(dumps(capture_values, indent=4))
 
                 if self.option:
-                    file_name=self.generate_file_name()
+                    file_name = self.generate_file_name()
                     print('4 - Downloading the values ​​found in the output folder')
-                    with open(f'{current_path}/output/{file_name}.json', 'a') as f:
+                    with open(f'{self.current_path}/output/{file_name}.json', 'a') as f:
                         f.write(dumps(capture_values, ensure_ascii=False, indent=4))
 
         except Exception as e:
-            print('Error in {}'.format(e))    
+            print(f'Error: {e}') 
+        
+    def download_sample(self, query_type, query_value):
+        """
+            Download a sample using different query types (hash, tag, file_type)
 
-    def list_for_filetype(self, file_type):
-        print('0 - Define local variables')
-        capture_values, saves, data = {}, {}, {}
+            ####
+            MalwareBazaar runs on Google Cloud infrastructure. Sadly, network egress traffic from Google Cloud is extremely expensive. We therefore had to restrict the number of file downloads on our file download API to 2,000 per IP address/day. For bulk downloads we recommend you to use the hourly and daily file exports of MalwareBazaar served by our datalake:
 
-        headers = {
-            'Auth-Key': getenv('AUTH'),
-            'User-Agent': 'Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41'
+                MalwareBazaar hourly malware batches (ZIP password: infected)
+                MalwareBazaar daily malware batches (ZIP password: infected)
+
+            Should you have valid reasons to download more than 2,000 malware samples through the file download API per day, feel free to reach out to us using the Spamhaus Technology contact form:
+            https://www.spamhaus.com/#contact-form
+        
+        
+        """
+
+        query_map = {
+            "hash": {"query": "get_file", "param": "sha256_hash"},
+            "tag": {"query": "get_taginfo", "param": "tag"},
+            "file_type": {"query": "get_file_type", "param": "file_type"}
         }
 
-        url = 'https://mb-api.abuse.ch/api/v1/'
+        if query_type not in query_map:
+            print(f"Invalid query type: {query_type}")
+            return
 
-        current_path = getcwd()
-
-        if self.limit > 0:
-            data = {'query': 'get_file_type',
-                    'file_type': file_type,
-                    'limit': self.limit}
+        data = {"query": "get_file", query_map[query_type]["query"]:query_value}
 
         try:
-            print('1 - Request to MalwareBaazar')
-            req = post(url, data=data, headers=headers)
+            print(f'1 - Requesting MalwareBaazar for {query_type} sample download')
+            req = post(self.url, data=data, headers=self.headers)
 
-            if req.status_code == 200:
-                saves = req.json()
-                print('2 - Loop to store the values ​​found')
-                for save in saves['data']:
-                    file_name = save['file_name']
-                    obj = {'file_name': save['file_name'],
-                        'file_size': save['file_size'],
-                        'file_type': save['file_type'],
-                        'signature': save['signature'],
-                        'reporter': save['reporter'],
-                        'sha256_hash': save['sha256_hash']}
-                    
-                    capture_values[file_name] = obj
+            if req.status_code == 200 and "limited" not in req.content.decode('utf-8'):
+                file_name = f"{query_value}.zip" if query_type == "hash" else self.generate_file_name() + ".zip"
+                file_path = f"{self.current_path}/samples/{file_name}"
+
+                with open(file_path, "wb") as f:
+                    f.write(req.content)
                 
-                print('3 - Printing the found values')
-                print(dumps(capture_values, indent=4))
+                print(f"Sample downloaded successfully: {file_path}")
 
-                if self.option:
-                    file_name=self.generate_file_name()
-                    print('4 - Downloading the values ​​found in the output folder')
-                    with open(f'{current_path}/output/{file_name}.json', 'a') as f:
-                        f.write(dumps(capture_values, ensure_ascii=False, indent=4))
+            else:
+                print(f"Failed to download sample. {req.content.decode('utf-8')}")
 
         except Exception as e:
-            print('Error in {}'.format(e))   
+            print(f'Error: {e}')   
 
-    def list_for_hash(self, hash):
-            print('0 - Define local variables')
-            capture_values, saves, data = {}, {}, {}
-
-            headers = {
-                'Auth-Key': getenv('AUTH'),
-                'User-Agent': 'Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41'
-            }
-
-            url = 'https://mb-api.abuse.ch/api/v1/'
-
-            current_path = getcwd()
-
-            if self.limit > 0:
-                data = {'query': 'get_info',
-                        'hash': hash,
-                        'limit': self.limit}
-
-            try:
-                print('1 - Request to MalwareBaazar')
-                req = post(url, data=data, headers=headers)
-
-                if req.status_code == 200:
-                    saves = req.json()
-                    print('2 - Loop to store the values ​​found')
-                    for save in saves['data']:
-                        file_name = save['file_name']
-                        obj = {'file_name': save['file_name'],
-                            'file_size': save['file_size'],
-                            'file_type': save['file_type'],
-                            'signature': save['signature'],
-                            'reporter': save['reporter'],
-                            'sha256_hash': save['sha256_hash']}
-                        
-                        capture_values[file_name] = obj
-                    
-                    print('3 - Printing the found values')
-                    print(dumps(capture_values, indent=4))
-
-                    if self.option:
-                        file_name=self.generate_file_name()
-                        print('4 - Downloading the values ​​found in the output folder')
-                        with open(f'{current_path}/output/{file_name}.json', 'a') as f:
-                            f.write(dumps(capture_values, ensure_ascii=False, indent=4))
-
-            except Exception as e:
-                print('Error in {}'.format(e))   
+  
 
 def main():
     parser = ArgumentParser(description="Search for samples and download malware")
-    
-    parser.add_argument("-t", "--tag", type=str, nargs="?", help="If you enable the option, you can search by tag (example: TrickBot)")
+
+    parser.add_argument("-t", "--tag", type=str, help="Search by tag (example: TrickBot)")
     parser.add_argument("-l", "--limit", type=int, default=2, help="Number of search results, default two")
-    parser.add_argument("-f", "--file_type", type=str, help="If you enable the option, you can search by file extension")
-    parser.add_argument("-ha", "--hash", type=str, help="If you enable the option, you can search by file hash")
+    parser.add_argument("-f", "--file_type", type=str, help="Search by file extension")
+    parser.add_argument("-ha", "--hash", type=str, help="Search by file hash")
     parser.add_argument("-o", "--option", action="store_true", help="Enables downloading of the result in json format")
+    parser.add_argument("-d", "--download", action="store_true", help="Download sample for given hash, tag, or file type")
 
     args = parser.parse_args()
 
     GetSampleObj = GetSample(args.limit, args.option)
     GetSampleObj.banner()
 
-    if args.file_type:
-        GetSampleObj.list_for_filetype(args.file_type)
+    if args.download:
+        if args.hash:
+            GetSampleObj.download_sample("hash", args.hash)
+        elif args.tag:
+            GetSampleObj.download_sample("tag", args.tag)
+        elif args.file_type:
+            GetSampleObj.download_sample("file_type", args.file_type)
+        else:
+            print("No valid parameter provided for sample download.")
 
-    if args.tag:
-        GetSampleObj.list_for_tag(args.tag)
+    else:
+        if args.file_type:
+            GetSampleObj.search("file_type", args.file_type)
 
-    if args.hash:
-        GetSampleObj.list_for_hash(args.hash)
+        if args.tag:
+            GetSampleObj.search("tag", args.tag)
+
+        if args.hash:
+            GetSampleObj.search("hash", args.hash)
 
 if __name__ == "__main__":
     main()
+
+

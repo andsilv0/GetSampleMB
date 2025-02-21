@@ -1,0 +1,4012 @@
+{
+    "query_status": "ok",
+    "data": [
+        {
+            "sha256_hash": "068af8016c36fce5cf1e1a4722c1dc0d6e02cb6ed58b61c2ba99a54d294cc274",
+            "sha3_384_hash": "a796d77c1efbbefbf81c10da82aa90f7f0cdddc8737f10e2e67c86b0f7d5a534757f62578dba59715d436ebfce34a66b",
+            "sha1_hash": "c1b276883da10fa2bf1c37a3851781e5c702a601",
+            "md5_hash": "f0b9f50c6a247ac5ca9cc95135b83dcf",
+            "first_seen": "2025-01-16 08:07:09",
+            "last_seen": null,
+            "file_name": "55ryoipjfdr.exe",
+            "file_size": 396288,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "joker651181",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "e24946fd3b548d18411ea3dc85666a69",
+            "tlsh": "T14F84D76A700ACB90DFC8D0FB2CD395F33A642363949B8E9C561D5F95BAE0DFC9960244",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:89FHululululululu4uOjzzUDjTgfH1okjroGWr2:89FHKKKKKKFzjzQJ5",
+            "magika": "pebin",
+            "dhash_icon": null,
+            "trid": [
+                "25.0% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "19.1% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "17.1% (.EXE) Win32 Executable (generic) (4504\/4\/1)",
+                "7.8% (.EXE) Win16\/32 Executable Delphi generic (2072\/23)",
+                "7.8% (.ICL) Windows Icons Library (generic) (2059\/9)"
+            ],
+            "tags": [
+                "exe",
+                "malware",
+                "Ransomware",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Tofsee-7349716-1",
+                    "Win.Ransomware.Locky-7349718-0"
+                ],
+                "downloads": "720",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "f59ed31f271d90f65b0ef6c34aaedec49993551818f7566968a944dafb7d36b4",
+            "sha3_384_hash": "1ce0e19a6a594dac7051c0148654a834ec3f13155206bcb67cd5d57ebd226822dbfd5bb5dd196efa0f1b0877031366d5",
+            "sha1_hash": "788aa9e068861faf987cb63581852374bd34f502",
+            "md5_hash": "8c524ecd5f8d8bd135dbe480badd50b9",
+            "first_seen": "2024-12-09 11:58:16",
+            "last_seen": null,
+            "file_name": "Potvrda_o_uplati.docx",
+            "file_size": 91422,
+            "file_type_mime": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "file_type": "doc",
+            "reporter": "nfsec_pl",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T18E93022A60673808C63353B1F01456DEA254F6619B3AA8D3B72443E58CFB5CF688765A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "1536:B0KJlt+leYjtfEKucFDtaUuq0rAs3To7eZdmSvFhNS4xlFSTG8vG9NWJQ:BH6XucFoUy8sjtACwGrf",
+            "magika": "docx",
+            "dhash_icon": null,
+            "trid": [
+                "52.2% (.DOCX) Word Microsoft Office Open XML Format document (23500\/1\/4)",
+                "38.8% (.ZIP) Open Packaging Conventions container (17500\/1\/4)",
+                "8.8% (.ZIP) ZIP compressed archive (4000\/1)"
+            ],
+            "tags": [
+                "doc",
+                "shorturl",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "MiscreantPunch.Suspicious.RemoteTemplateCall.UNOFFICIAL",
+                    "Sanesecurity.Badmacro.Xls.BadUsr1.UNOFFICIAL",
+                    "SecuriteInfo.com.Trojan.VBA.Agent-16.UNOFFICIAL"
+                ],
+                "downloads": "3521",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "046ea30e67d2a06b83db596a087b9e62bd23de95e76aefb6deb3c9348c546c48",
+            "sha3_384_hash": "465bb60db67be09c5c8d3736a4e345d2114249892520a02f8b213237380c3262939ca5ce8a5d0349ee86bc5ac9654815",
+            "sha1_hash": "8c6ecaa004539de964356791f86f0478bdb540cb",
+            "md5_hash": "9ce3657c4801c085594c492e4948c4d7",
+            "first_seen": "2024-07-25 01:48:00",
+            "last_seen": null,
+            "file_name": "LisectAVT_2403002C_42.dll",
+            "file_size": 410767,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": "TrickBot",
+            "imphash": "3da17812d53e4c8ea40facb22cec21c8",
+            "tlsh": "T18594E1217280C076D3CB2179DEB197710AAABC1257B0A4CB7BE52FBE4F642D1977430A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:SYbxqY1tkUnvIRKYdZEMiXeUJqFfEGTJ210yGCZ0AlBqhmkh3brRLeeuXkHlFWkr:jxqY1tzwRKYdiMiXvqFfX2St6VmASvl",
+            "magika": null,
+            "dhash_icon": "d49c8ca6a7b3e363",
+            "trid": [
+                "47.3% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "15.9% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "9.9% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.6% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "6.8% (.EXE) Win32 Executable (generic) (4504\/4\/1)"
+            ],
+            "tags": [
+                "dll",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Bankerx-9882566-0"
+                ],
+                "downloads": "495",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "a1dd74d7301bf8d504449071142c81113bcd4d0c88fee46e7bacf550495a72bc",
+            "sha3_384_hash": "e18e5dffc6bde5d485a1b568629bd2fe584d30091cc0770288af3fbc2c3dc806a473c706f210d4569b148134238f63ae",
+            "sha1_hash": "3e6a4041ed2be36ef85ccde8f170b75607887dfe",
+            "md5_hash": "87936f0b8f079c7f722ab91029cc3f8a",
+            "first_seen": "2024-07-25 01:13:34",
+            "last_seen": null,
+            "file_name": "LisectAVT_2403002B_312.dll",
+            "file_size": 473224,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": "TrickBot",
+            "imphash": "87bed5a7cba00c7e1f4015f1bdae2183",
+            "tlsh": "T161A4AFFB668C0392E2036879EF18E2B7915367AD6F42C1C5F66AD9D72633052C51CB43",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:7bVPXLakbTqht5o+nKivd8Z4sPYwp4KltOzlZRMCKy6fcWWHDecHAI3C+8hkBt:db4DmavdW4svpLtmRlKMHDuIyct",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "27.1% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "20.8% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "18.6% (.EXE) Win32 Executable (generic) (4504\/4\/1)",
+                "8.5% (.ICL) Windows Icons Library (generic) (2059\/9)",
+                "8.3% (.EXE) OS\/2 Executable (generic) (2029\/13)"
+            ],
+            "tags": [
+                "dll",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Variant.Zusy.395842.31374.28812.UNOFFICIAL"
+                ],
+                "downloads": "350",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "81c734c21b5e15837d01c9766094bc4ffce0e3dc6b04c15e0bc1286d61897dc7",
+            "sha3_384_hash": "86e671b7abb4ecd767718dbedc8b6684841238e6e9ccd93eef3f8241cef24ca44e447c7c384343b8cff9792f35560609",
+            "sha1_hash": "a048fb91c8e7909886708a2c2f44856dd3991e26",
+            "md5_hash": "24e25f4bb1d31fd7c6ba29a2beae1807",
+            "first_seen": "2024-07-24 23:40:04",
+            "last_seen": null,
+            "file_name": "LisectAVT_2403002A_111.exe",
+            "file_size": 1194031,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": "TrickBot",
+            "imphash": "58471b8a9f8702d1a9e4838d7b7d501a",
+            "tlsh": "T13445D129EB547971F252497576106AAF2D818C3911A3DF4BEB8288CDB801DD3F2F532B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "24576:zQ5aILMCfmAUjzX6xQ0+wCIygDsAUQkCJmOGwf:E5aIwC+Agr6SNuku",
+            "magika": null,
+            "dhash_icon": "9832f0e0d0e0e448",
+            "trid": [
+                "74.4% (.EXE) Win32 Executable Microsoft Visual Basic 6 (82067\/2\/8)",
+                "9.5% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "4.5% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "4.0% (.EXE) Win32 Executable (generic) (4504\/4\/1)",
+                "1.8% (.ICL) Windows Icons Library (generic) (2059\/9)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Dropper.KpotStealer-9322564-1",
+                    "Win.Malware.Mansabo-7102049-0",
+                    "Win.Malware.Razy-6895206-0"
+                ],
+                "downloads": "352",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "d2582eb0e62eb74cd2e9a4b0658d54a3b71c08e3f844b47e53ad1912623f4eb4",
+            "sha3_384_hash": "3102368f923e31c8eda3ea68373c4b9eb57dcd79163cef28094e73d75692fadf1fabdfb16f4ca7aa832448b5a4ab0d3e",
+            "sha1_hash": "5f2ee82216ef821fd1034e9955f8e0144e917435",
+            "md5_hash": "f233ca992f3d961c3139022e3cd3387b",
+            "first_seen": "2024-02-10 14:43:13",
+            "last_seen": null,
+            "file_name": "TrickBot!ML.exe",
+            "file_size": 9004164,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "1234567890",
+            "anonymous": 0,
+            "signature": "DBatLoader",
+            "imphash": "f79ea0c94e227279eb88b8fc132d04a7",
+            "tlsh": "T1039601E0D792887ACBC16B78DCA9A1EF88ADA2C369C5307F603D3FCB99D550554A00D7",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "196608:QOzBN91actrruOEuBu9C6Y+CeCYxv1ofEkUXxuRrXOxDMBP\/3+wmRNL\/U5rjsc:QOzOIrCOEuBfYbSrh\/3+wQNLRc",
+            "magika": null,
+            "dhash_icon": "b2b8f8f0f8989a92",
+            "trid": [
+                "43.5% (.EXE) Win32 Executable Borland Delphi 7 (664796\/42\/58)",
+                "29.5% (.EXE) Win32 Executable Borland Delphi 5 (451463\/56\/28)",
+                "17.1% (.EXE) Win32 Executable Borland Delphi 6 (262638\/61)",
+                "3.7% (.CPL) Windows Control Panel Item (generic) (57583\/11\/19)",
+                "2.7% (.EXE) Win32 EXE PECompact compressed (generic) (41569\/9\/9)"
+            ],
+            "tags": [
+                "DBatLoader",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "745",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "db076d7687706fdac4d6fcaf5b6fd55fc646924df885f016f661d79d40e28d40",
+            "sha3_384_hash": "35ed38e2efb7ddc48982141e68de2a809efc8c1f460fd524142a3d3c20897b0ee759104bf5ce2cdc76adc9d95615dff6",
+            "sha1_hash": "e2d590cca8db74af37459dc8823be38a5bdeffaa",
+            "md5_hash": "b359e2f262ca2e0c66d5394a52b0eff5",
+            "first_seen": "2023-12-29 20:13:30",
+            "last_seen": null,
+            "file_name": "Info.zip",
+            "file_size": 39918,
+            "file_type_mime": "application\/zip",
+            "file_type": "zip",
+            "reporter": "e24111111154168",
+            "anonymous": 0,
+            "signature": null,
+            "imphash": null,
+            "tlsh": "T17A0302607639818ECAB4F21B0E8676E204C959F54B36FF044FBF2A57BDA90906B344CC",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "768:F7zSOZlb3so\/2H6S9k59m+sz\/dj2XT7X5RcGDK1c0:F7zSOXbO790EjecGC",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "80.0% (.ZIP) ZIP compressed archive (4000\/1)",
+                "20.0% (.PG\/BIN) PrintFox\/Pagefox bitmap (640x800) (1000\/1)"
+            ],
+            "tags": [
+                "base64-decoded",
+                "pw-fggh643",
+                "TrickBot",
+                "zip"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "225",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "01ec7b1066df7c55e262dc375bff5fd13a1fc9706c3db4b3522ac8b9d2453b52",
+            "sha3_384_hash": "173e3fd5d3d496ef77a87d8d3a5c662a4d3db47a2b904fd09b57acbfe2320d027541fae162c4dcdf61118d08288753f3",
+            "sha1_hash": "76c5317147306c477d793dc6aea9814d8111f82e",
+            "md5_hash": "9c7b97eb3958d4309e6ba38bb1a99471",
+            "first_seen": "2023-12-05 16:00:47",
+            "last_seen": "2023-12-05 17:18:03",
+            "file_name": "GST INVOICE.exe",
+            "file_size": 689152,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "cocaman",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+            "tlsh": "T1C4E4126D31AD7C9BD86E02FD1931E008A3B2FE794495E3C96CC275DB45E9FE04622293",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:OCtB5nF8ME6jD\/gyU4gvpMvUTlzfAbzbm4rbH\/x0XKqRoBWOrXlzofm:zPtD\/gFNHlzYbzbR3H\/cV2rXNofm",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "63.0% (.EXE) Generic CIL Executable (.NET, Mono, etc.) (73123\/4\/13)",
+                "11.2% (.SCR) Windows screen saver (13097\/50\/3)",
+                "9.0% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "5.6% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "3.8% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "INVOICE",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.MulDropNET.68.30319.23725.UNOFFICIAL"
+                ],
+                "downloads": "757",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "6862e164f00d01339afca96e70d5bd5dd0c43d4333815193a70272d555c753bb",
+            "sha3_384_hash": "ad2b48399ee7800619acf13b1897c2bc51c801188243ada472978bbf5f00d1a1893e862fbdfc559c94ff67be69c20c2f",
+            "sha1_hash": "98ee001ffa5bcae537982df487469a0aeed10363",
+            "md5_hash": "aea3598323131fec106e5e1d64655f84",
+            "first_seen": "2023-12-05 16:00:37",
+            "last_seen": null,
+            "file_name": "GST INVOICE.rar",
+            "file_size": 611317,
+            "file_type_mime": "application\/x-rar",
+            "file_type": "rar",
+            "reporter": "cocaman",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T184D423662314D664101AE8B794FECD68FE4626B84D0085F2BD7FA1E3390D4C6E9CD87B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:wPztz87VLwKqbdZlIiFw3q3T5cI9r375lO+hbewZ0MlkSCFdtJS\/fl:c1879wKgtzS3qTLr375lOobeY1l8Fit",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "61.5% (.RAR) RAR compressed archive (v5.0) (8000\/1)",
+                "38.4% (.RAR) RAR compressed archive (gen) (5000\/1)"
+            ],
+            "tags": [
+                "INVOICE",
+                "rar",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "331",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "0df586aa0334dcbe047d24ce859d00e537fdb5e0ca41886dab27479b6fc61ba6",
+            "sha3_384_hash": "d6441b6b4b3457ad30945eeffd769c525b855888e08a10bbf84da5ef2b57577a2cd2bafe1d7c9afe72c53f54b76bdecf",
+            "sha1_hash": "bd5806791f86cda3a36c1c030a0e6e5da380e0d5",
+            "md5_hash": "aeb08b0651bc8a13dcf5e5f6c0d482f8",
+            "first_seen": "2023-11-12 14:02:45",
+            "last_seen": null,
+            "file_name": "network64Dll.dll",
+            "file_size": 24200,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "themalwareguy",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "516e12c64fd0a1d4eb25fccd60d4295e",
+            "tlsh": "T100B2F61233F94450E2B686B9DEB3CA33DA7135C52839DA2F02A4C5592FF1612ED28F57",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "384:9gNoyO3N8MPYmvRsnfdil5SyJ5b0lrEhj8JbTv6DUA86:9gNoyyY\/fdEP0t0QTTB6",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "45.5% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "18.3% (.EXE) OS\/2 Executable (generic) (2029\/13)",
+                "18.0% (.EXE) Generic Win\/DOS Executable (2002\/3)",
+                "18.0% (.EXE) DOS Executable Generic (2000\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Trickbot_module-6735723-0"
+                ],
+                "downloads": "531",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "c58751df2384d3667a1176c893888b976c2e2f97f3e702ecb322dbc31461aaa4",
+            "sha3_384_hash": "ae2c38c9d0e281ba043f4af3621fb7f8ccf2f0cec6bd37ecc412cf9ff6d6ca1a3c54c7b7c30de403e823dd743b53efde",
+            "sha1_hash": "aef1ba8bd48997a1bcb729a4971f352dda2d847d",
+            "md5_hash": "c7daf4537e61a559a3aee8a3cb558b5e",
+            "first_seen": "2023-11-11 11:09:47",
+            "last_seen": null,
+            "file_name": "cheatlab.msi",
+            "file_size": 3456512,
+            "file_type_mime": "application\/x-msi",
+            "file_type": "msi",
+            "reporter": "NIXLovesCooper",
+            "anonymous": 0,
+            "signature": "RedLineStealer",
+            "imphash": null,
+            "tlsh": "T1CBF58C21B287C036D5AF0172693CEEAE55397E634B7100DB7BE43ABE48B48C16635F16",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "49152:ki2ZcnppGDT9RLuQIK751hM0S8kEP5nr1M34SHc4W5J14s8d:ki2WijLugkx34SHc",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "80.0% (.MSI) Microsoft Windows Installer (454500\/1\/170)",
+                "10.7% (.MST) Windows SDK Setup Transform script (61000\/1\/5)",
+                "7.8% (.MSP) Windows Installer Patch (44509\/10\/5)",
+                "1.4% (.) Generic OLE2 \/ Multistream Compound (8000\/1)"
+            ],
+            "tags": [
+                "msi",
+                "RedLineStealer",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Packed.Cerbu-10011747-0",
+                    "Win.Trojan.Pwsx-10011340-0",
+                    "Win.Trojan.Trojanx-10011459-0"
+                ],
+                "downloads": "191",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "1e0215f67fb7b02bc44f33bf6a5b884c3061cbeb38e0150b559635458951fa53",
+            "sha3_384_hash": "ca3ccaf6b80d5615284494748841d5a8766010a1d4c411595be71ecb03ef3c211ded99903484fab68a688339adcc0283",
+            "sha1_hash": "d04dfbc5b1335c8408ffb5c58bd966791f748ad3",
+            "md5_hash": "8503ea92f4c9941ee3295978729d98ba",
+            "first_seen": "2023-08-24 07:19:00",
+            "last_seen": "2023-08-24 07:19:39",
+            "file_name": "xml1.exe",
+            "file_size": 405504,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "dancho_danchev",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "cd46b7aed718803156f54c0576fe8371",
+            "tlsh": "T17F84CF1931E485B7D2A78A300DF597B9B764FD709F34871B9321EF8E7D312522A2A312",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:omPt4BMS4GhUjjF0CBTTFCIRroPHQJ\/s5xi8uwytwnhJCAfYrewWvoKMyDftxQib:ZPt4BMsOvpAHQJ0G8CAfWWvo1im",
+            "magika": null,
+            "dhash_icon": "844cfef0ece4e48c",
+            "trid": [
+                "39.4% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "16.5% (.SCR) Windows screen saver (13097\/50\/3)",
+                "13.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "8.3% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "6.3% (.EXE) Win16 NE executable (generic) (5038\/12\/1)"
+            ],
+            "tags": [
+                "conti",
+                "conti ransomware",
+                "exe",
+                "Ransomware",
+                "TrickBot",
+                "win.conti"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.Packed.140.8570.16524.UNOFFICIAL"
+                ],
+                "downloads": "919",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "81fa8a3bdc452dd2b279b61fed92fe83d65e650e06bca9ee4dfcf991a4a59e77",
+            "sha3_384_hash": "1b461870c2117e334caba4f0afdd568e016dc11b67db5b508af3eef92f7fbc6cce26257465d72111ccee72e2f5537900",
+            "sha1_hash": "9e92535dc7bcdd7bf677a643f90ee730784edfc6",
+            "md5_hash": "7773c8164949a42936c4d1374cf16284",
+            "first_seen": "2023-08-24 07:07:40",
+            "last_seen": null,
+            "file_name": "3.exe",
+            "file_size": 442368,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "dancho_danchev",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "b3e900583a5149b2521fc2954714dad0",
+            "tlsh": "T184947C0D32A0847FE16524B0886B6BA45160ADBCAE72D737BF58B54BFD317C6513323A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:K7SsTkhdodKqFnpNB0ZBPpYbDhk2N+mBN0fmWbli\/eQ8CAFCKz62bxMP7RTitG:WmhdSHZoY\/y2MM0fm6lfQIR62lM9iA",
+            "magika": null,
+            "dhash_icon": "aeb29292daccb48a",
+            "trid": [
+                "39.4% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "16.5% (.SCR) Windows screen saver (13097\/50\/3)",
+                "13.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "8.3% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "6.3% (.EXE) Win16 NE executable (generic) (5038\/12\/1)"
+            ],
+            "tags": [
+                "conti",
+                "conti ransomware",
+                "exe",
+                "Ransomware",
+                "TrickBot",
+                "win.conti"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Exploit.ShellCode.26.11651.7264.UNOFFICIAL"
+                ],
+                "downloads": "778",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "9fdea40a9872a77335ae3b733a50f4d1e9f8eff193ae84e36fb7e5802c481f72",
+            "sha3_384_hash": "951873472856234b34383cffafb616a519d15c4ced476ed90755966a893586301e2f1a98181fa9f0d8a0987ca268a328",
+            "sha1_hash": "dd8753066efc055dea693f44627fd69c988dfc65",
+            "md5_hash": "0b375e6b7e44d7c8488c4227e9344197",
+            "first_seen": "2023-07-13 19:39:22",
+            "last_seen": null,
+            "file_name": "0b375e6b7e44d7c8488c4227e9344197.exe",
+            "file_size": 563311,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "obfusor",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "ea97e91275f65096e0769ec8f21f572b",
+            "tlsh": "T149C4E02A37E1CD77C1A654B90EE2DBAA72FAFD204F718A4323943B0D4E316D25935316",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:Zx1Q61iHsXYvfVpMODDawkCurdEtttYy7C62Vvyh7:ZXQUIsQpMsequrmGyiqh7",
+            "magika": null,
+            "dhash_icon": "71b119dcce576333",
+            "trid": [
+                "48.8% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "16.4% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "10.2% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.8% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.0% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Midie-7369865-0"
+                ],
+                "downloads": "492",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "78b592a2710d81fa91235b445f674ee804db39c8cc34f7e894b4e7b7f6eacaff",
+            "sha3_384_hash": "e68c02fac0bd2cddddc975479eefd5dcb1259ca87b6fddeff25840f5dbcc24ec1a2e8ecaa91ae2b9cfb68459ec635c33",
+            "sha1_hash": "f7b876edb8fc0c83fd8b665d3c5a1050d4396302",
+            "md5_hash": "fa8117afd2dbd20513522f2f8e991262",
+            "first_seen": "2023-04-22 15:30:37",
+            "last_seen": "2023-05-03 03:32:16",
+            "file_name": "Revil.bin",
+            "file_size": 122368,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "petikvx",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "95c9dbd11f21d2c0fa6c3dccccbdebb5",
+            "tlsh": "T17CC32371F02A1FE4F694A0790842A202DD0664C723E6EE1F872F4AB85CDEAF755740F9",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "3072:KW5yc3Y4SMQwuOekD96R928AN+\/uSxo+HHz\/bs\/k4OS:K83Y5BAxa92KrxTnz\/Y\/k4O",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "27.1% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "20.8% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "18.6% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "8.5% (.ICL) Windows Icons Library (generic) (2059\/9)",
+                "8.3% (.EXE) OS\/2 Executable (generic) (2029\/13)"
+            ],
+            "tags": [
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.CryptRedol.Gen.3.28279.14106.UNOFFICIAL"
+                ],
+                "downloads": "443",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "a08fc81cd189984d84d771194a11ecbfc57c5c74df1c36c0c46157a30bcf23cf",
+            "sha3_384_hash": "5c64b3afd2a0e4a2e9b50efed9f7b905400ec419dcad5c8f8a2e6ef17c837250b81fc28cb60b714c12746582233923b5",
+            "sha1_hash": "6f5875c7f686d8880dad8e1e7c6aa76267a639b6",
+            "md5_hash": "77cbcf6dfcfc1102d9a8156b743051e3",
+            "first_seen": "2023-03-17 08:02:54",
+            "last_seen": null,
+            "file_name": "Microstrategy - Global bank screen_16Mar2023.xlsx",
+            "file_size": 195748,
+            "file_type_mime": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "file_type": "xlsx",
+            "reporter": "cocaman",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T1BC14125CD6028EB9E4329CF5B159393C3729B592EC7B47D38280E37F7701A42193EA59",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "3072:uihhzqYSqqotoxBnMwEOr5IiNU4tdasHcBR7n3uDiPMtHQF\/6r+dnxjF9UpgARfq:rhhzHFGMw\/r5IV4tpHcn7fPyH2\/6Yxj1",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "60.1% (.XLSX) Excel Microsoft Office Open XML Format document (34000\/1\/7)",
+                "30.9% (.ZIP) Open Packaging Conventions container (17500\/1\/4)",
+                "7.0% (.ZIP) ZIP compressed archive (4000\/1)",
+                "1.7% (.PG\/BIN) PrintFox\/Pagefox bitmap (640x800) (1000\/1)"
+            ],
+            "tags": [
+                "TrickBot",
+                "xlsx"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "439",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "1e90b6fc99a908420de123418deded8d8eadf2114ac43ee1ec366681b5358c17",
+            "sha3_384_hash": "e34c2c5ecc2af8a03ed509908c0e774379dd22257f0417fa64a26839faf1a34299d18241fd029b3d37e122b59f24c005",
+            "sha1_hash": "035c005e34504bd0228feaf4b54eea743894b7aa",
+            "md5_hash": "fb67481e2ae37b3f0304048d15e76ba6",
+            "first_seen": "2023-01-11 09:25:07",
+            "last_seen": "2023-01-11 10:36:02",
+            "file_name": "1E90B6FC99A908420DE123418DEDED8D8EADF2114AC43.exe",
+            "file_size": 4916424,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "f9644890a52aa13e3e994733d15fcb99",
+            "tlsh": "T1A53622E352651005E49ACC35C9677EB932FBF7AA4F815438658AFFC11A32DD4E282B13",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "98304:faBDlNcMRYwhDlXn7\/IZZkwFiXjM65m2UjVE7TmJyxaaWESfmYR:fgqmYQDlLQZZkwqI26DJsapR",
+            "magika": null,
+            "dhash_icon": "9ae660ccd4616698",
+            "trid": [
+                "30.2% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "18.9% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "14.5% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "12.9% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "5.9% (.ICL) Windows Icons Library (generic) (2059\/9)"
+            ],
+            "tags": [
+                "ArkeiStealer",
+                "exe",
+                "signed",
+                "TrickBot"
+            ],
+            "code_sign": [
+                {
+                    "subject_cn": "Intel Celeron Skylake G3900 OEM",
+                    "issuer_cn": "Intel Celeron Skylake G3900 OEM",
+                    "algorithm": "sha1WithRSAEncryption",
+                    "valid_from": "2022-11-13T23:31:01Z",
+                    "valid_to": "2032-11-14T23:31:01Z",
+                    "serial_number": "54361f0ced37d8a24cd11b25c2e4e89a",
+                    "thumbprint_algorithm": "SHA256",
+                    "thumbprint": "fc491f5f17647eb0f16d0afcf330f46ceeb7b0718e5be9d740c57b2f1cc3b35d",
+                    "cscb_listed": false,
+                    "cscb_reason": null
+                }
+            ],
+            "intelligence": {
+                "clamav": [
+                    "Can't access file ERROR"
+                ],
+                "downloads": "537",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "e7456c57dba442a7e63f2bd45ff5be6c8168f2fcfd15c5e405536fb3bb212dcb",
+            "sha3_384_hash": "ec210365723b02ba6fedcd33ca6ca0b67a0d18d9045a322af81a57bf9980c41b15e898b30dfa462a4eb7ef3089463b06",
+            "sha1_hash": "a2ce7a730e96bf6c8f9cd512993fd67cf0c10767",
+            "md5_hash": "e8b61b099af93918a7d59477334471e0",
+            "first_seen": "2023-01-10 09:00:40",
+            "last_seen": "2023-01-25 18:22:15",
+            "file_name": "49136 E2K 610622871149136 E2K 6106228711.exe",
+            "file_size": 823691,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "cocaman",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "61259b55b8912888e90f516ca08dc514",
+            "tlsh": "T1D005AB801E41C89DE161CFF225B185B3C72E9FED2E38855E7614FF3667381AC971AA12",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:IYgBDMwdNEb40oLhLr1+vuYdCllN9cnUstwbvhz58lZNKXGLfR:IYgB7mINL\/vbDci1p2d",
+            "magika": null,
+            "dhash_icon": "f0dcd4d4d4d4ccf0",
+            "trid": [
+                "47.3% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "15.9% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "9.9% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.6% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "6.8% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.AIT.Trojan.Nymeria.5338.9858.21810.UNOFFICIAL"
+                ],
+                "downloads": "430",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "8b739e545fc95b979031b1d173680e40804cdfae954553daad04f865571072a5",
+            "sha3_384_hash": "9125031b009309e1d1d28b57bb5657a6524eac97f23a5244670595432a326d9b0580e0bc926569132ffb0dff8578e24d",
+            "sha1_hash": "b699a23442a1c59f1e161b5140e0ac75a4e7f316",
+            "md5_hash": "93c06fe98c490ca05ff794cc50b7fefa",
+            "first_seen": "2023-01-10 09:00:32",
+            "last_seen": null,
+            "file_name": "49136 E2K 610622871149136 E2K 6106228711.zip",
+            "file_size": 656949,
+            "file_type_mime": "application\/zip",
+            "file_type": "zip",
+            "reporter": "cocaman",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T199D4236909F38CB6705E2C70A28C5E49C835CC99ED7F4716AB797983D00D7C8EBBA452",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:R+g0JhM47NEb20oJh3r1+vuYdMJXN9cnU2twpvhT5A5Z\/KX9LfA:aJtmaX3\/b9D+qVDtU",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "80.0% (.ZIP) ZIP compressed archive (4000\/1)",
+                "20.0% (.PG\/BIN) PrintFox\/Pagefox bitmap (640x800) (1000\/1)"
+            ],
+            "tags": [
+                "TrickBot",
+                "zip"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.AIT.Trojan.Nymeria.5338.9858.21810.UNOFFICIAL"
+                ],
+                "downloads": "248",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "37ff98395d4db062f03fdd648bbcc47f7aa0db3afa3bbc5ed44f308cf50499d0",
+            "sha3_384_hash": "202dd1d0fc8fc0d2a213c11fc5530c7856ff4e8207be7690e09598f9b1cfb6da3630e4e874081ed972011b37486f27ec",
+            "sha1_hash": "d9005790ec907da4536f74e7229fe6f7318e3373",
+            "md5_hash": "4328f83690bea146835b8a62ab321e3c",
+            "first_seen": "2022-12-20 15:30:17",
+            "last_seen": null,
+            "file_name": "37ff98395d4db062f03fdd648bbcc47f7aa0db3afa3bbc5ed44f308cf50499d0-1",
+            "file_size": 2426586,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "DesdinovaOsint",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "be41bf7b8cc010b614bd36bbca606973",
+            "tlsh": "T171B533427A2C41FEE68309733A39CCC256066E225D67528E9341BDCC677779BEA08773",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "49152:6M+mmTGRHhVKvDxVELMQ37INHRFXz86RJobbUWhI9mMK:vxH8D\/VHX\/JCbBSmMK",
+            "magika": null,
+            "dhash_icon": "71cc92a2aa96cc71",
+            "trid": [
+                "47.3% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "15.9% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "9.9% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.6% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "6.8% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Winsecsrv-7008643-0",
+                    "Win.Malware.Winsecsrv-7008645-0",
+                    "Win.Malware.Winsecsrv-7008646-0"
+                ],
+                "downloads": "378",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "7553c451f8bc7159aaf5afcc364090428f512068a0b68701ffc31e8e11c31502",
+            "sha3_384_hash": "b685aeec363726da1f4a67e484237ccec27d3c03e2d5dd7e40795a8a08c942bca60ac0e8e7b95865a591123c1727ebb4",
+            "sha1_hash": "204f391ec767840db1b5caa855cce1ce2ec3e607",
+            "md5_hash": "ecafdd057b65375eac43838e9013bf9d",
+            "first_seen": "2022-12-16 15:51:12",
+            "last_seen": null,
+            "file_name": "REQUEST FOR QUOTATION_NEW ORDER LISTED URGENTLY NEEDED.GZ",
+            "file_size": 791866,
+            "file_type_mime": "application\/x-rar",
+            "file_type": "gz",
+            "reporter": "cocaman",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T117F4336CEF2752504A2945B186789B2A9B3D973C07D06FF61F0ECB0483E9C9E4E351B6",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:+Pv4dWI\/3\/JUXWrC4lqpxtLjJmdvUnkZ+uWsi0OUpJpsAY6E8X3aD1O4eSTaGFup:+oAKUmTqdLjQdx8u\/5F\/YOX354eSGOCf",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "58.3% (.RAR) RAR compressed archive (v-4.x) (7000\/1)",
+                "41.6% (.RAR) RAR compressed archive (gen) (5000\/1)"
+            ],
+            "tags": [
+                "gz",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "237",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "6e6536cc12b95070cb1a9674a4aa2c86b961bb3f4be8cae578adaa91a76898e4",
+            "sha3_384_hash": "2147bbd9806b7c48ccb1ff2167977873bcbacbcd7202a5fe1550fd4689e1449adb806a56f2fedf73c3b28b5ab7d395bc",
+            "sha1_hash": "34511192ce0d8d8bc7fdb21eff15d8475f53a765",
+            "md5_hash": "fad11f44a94919cbb363e963463c4c1f",
+            "first_seen": "2022-12-13 13:59:52",
+            "last_seen": "2022-12-21 16:22:10",
+            "file_name": "Signed PI & Payment Order.exe",
+            "file_size": 535552,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "James_inthe_box",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+            "tlsh": "T1CAB4121D39C92995EC74CAF6D119010316B17A097613DB7C9AC3B42AC4F33AEE618B7B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:fKDYiA9P3eN9KclpRw+K56MK4qk+LnENddL\/oIzjtgadHmLiE9VXWNzUpjlQy4a1:3wN9jRw+y6xBcAgZgqWiwQNAz\/Z",
+            "magika": null,
+            "dhash_icon": "303edcda9adc3e30",
+            "trid": [
+                "67.7% (.EXE) Generic CIL Executable (.NET, Mono, etc.) (73123\/4\/13)",
+                "9.7% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "6.0% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "4.6% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "4.1% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.GenericKD.64227897.31586.26730.UNOFFICIAL"
+                ],
+                "downloads": "358",
+                "uploads": "3",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "2e2f674241de56d4404a8fdbcb470fd9738d48c855fb0785deaae99ea3af383f",
+            "sha3_384_hash": "f172fee830c3d49fc4f83657ee69f4dfcdcc73f7ea5e8b077e5916aeb6cd6317f9dfeaaa02dad6595d551dbf285b97fb",
+            "sha1_hash": "6b5045282bfb648754bbd3d40706fde1ee6dd7c3",
+            "md5_hash": "ffec9f3d109cd570f9a2962adc6f14c1",
+            "first_seen": "2022-12-12 14:31:54",
+            "last_seen": "2022-12-16 15:51:20",
+            "file_name": "REQUEST FOR QUOTATION_NEW ORDER LISTED URGENTLY NEEDED.exe",
+            "file_size": 1020416,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "James_inthe_box",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+            "tlsh": "T1AB255AD1B7F2A125F68B32712418728DED35BD433647A15A27763B4082F58FFAAB8443",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "24576:gszQve9P6I2wgNd3lRZCrHi8LGRDi66pFkf:gszSUwNd1nj8LGBh",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "69.7% (.EXE) Generic CIL Executable (.NET, Mono, etc.) (73123\/4\/13)",
+                "10.0% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "6.2% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "4.2% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "1.9% (.EXE) Win16\/32 Executable Delphi generic (2072\/23)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.Inject4.48217.UNOFFICIAL",
+                    "SecuriteInfo.com.Win32.PWSX-gen.21392.5516.UNOFFICIAL"
+                ],
+                "downloads": "316",
+                "uploads": "4",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "4c988891326eea9e5fe8aeaa93ffb3f7001bd3cda048a72ab24c8b54dd1834e4",
+            "sha3_384_hash": "0bb214edf234a00c20595faa0df8702c3b398efbc288d612f41b50c611ed311fea1ea887c55eb7416823c287f9eda85a",
+            "sha1_hash": "bb6a32c77ceb6d5b2c32731b0109c177c7aa6d96",
+            "md5_hash": "2a48228a37fe7bf1cf3f147d07884e30",
+            "first_seen": "2022-12-09 18:22:34",
+            "last_seen": "2022-12-09 19:28:55",
+            "file_name": "REQUEST FOR QUOTATION_NEW ORDER URGENTLY NEEDED.exe",
+            "file_size": 940032,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": "TrickBot",
+            "imphash": "f34d5f2d4577ed6d9ceec516c1f5a744",
+            "tlsh": "T1AA155BD577F2A06EF48B725264183A9DDC35B943734BE14667733B1082D88FFAA98483",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "24576:eijfgpFKJM3kEirzajXBJnORbhVjSFoSF4:eSK3Ore7bnAbhVjSFr4",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "61.9% (.EXE) Generic CIL Executable (.NET, Mono, etc.) (73123\/4\/13)",
+                "11.1% (.SCR) Windows screen saver (13097\/50\/3)",
+                "8.9% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "5.5% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "3.8% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Win32.PWSX-gen.17996.28167.UNOFFICIAL"
+                ],
+                "downloads": "304",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "7bdd1409b080eb8510163cea3761d694be0eaec7e22bc44736cbfbc3025a310b",
+            "sha3_384_hash": "31340fba7a53f2bcafe71151768875e421f51a42cffb57acdff420022c5c8e47b96d0da2a5b9a6f278f1ce058fe6614d",
+            "sha1_hash": "7ace13d7b698ca6fa87ef337237893424503bde7",
+            "md5_hash": "28cfd8a6b63836e39fc10c87ee7ec59d",
+            "first_seen": "2022-11-30 09:14:47",
+            "last_seen": null,
+            "file_name": "7ace13d7b698ca6fa87ef337237893424503bde7",
+            "file_size": 552960,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "EstisRemiel",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "2f810b8ed7f9f08ed077c2c647e4f113",
+            "tlsh": "T187C4AF0B36F0C077C1A391724ECA7A7AB2BAAD504D37460323D64B1E5E369819F2F176",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:ry5iow33myVaf\/mhy4h0gTLL\/niHDpWuOthr+RMp:6i\/Hm6xhyLgHrni0H",
+            "magika": null,
+            "dhash_icon": "0000000000000000",
+            "trid": [
+                "40.5% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "17.0% (.SCR) Windows screen saver (13097\/50\/3)",
+                "13.6% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "8.5% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "6.5% (.EXE) Win16 NE executable (generic) (5038\/12\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Trojan.Emotet-7337462-0",
+                    "Win.Trojan.Emotet-7339736-0"
+                ],
+                "downloads": "322",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "2cb4c54bc346421e0a4854698830405ac0dcd5046ae6c462f488f4e5319a90d2",
+            "sha3_384_hash": "4357b5e38d5d108caf74bf1b6a75fbe1bcdd45ff7a80471d103f8485c873afc68081ff6b044d956dfa5d1b3ef7a253f9",
+            "sha1_hash": "710d040197c2b56e399a5bb2046fa62153dc8df0",
+            "md5_hash": "5fada4351bb0f258615e5c16986e4c63",
+            "first_seen": "2022-11-16 14:53:55",
+            "last_seen": "2022-11-16 17:24:10",
+            "file_name": "crb123.exe",
+            "file_size": 3110400,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": "TrickBot",
+            "imphash": "221787fa92c2a5924102eb599da69c9f",
+            "tlsh": "T19BE5DF07B8A1A0F9D16A83318DB6D2E16731BC556B3123D73B90B7792E727D01E39728",
+            "telfhash": null,
+            "gimphash": "78e9b75e234d5a08d2d88b005fead41f6a648830bbe3d630b38471d61683d133",
+            "ssdeep": "49152:PgCnMMset265JK1IcQeq2UZ0YWHgLVvKWQc2b1FVgbjrjxPe1pbPSQm1Flo+u:YPMb3BvKWQckVgtev5mnlNu",
+            "magika": null,
+            "dhash_icon": "696a6ee2b2b2c2cc",
+            "trid": [
+                "43.3% (.EXE) Microsoft Visual C++ compiled executable (generic) (16529\/12\/5)",
+                "27.6% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "13.2% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "5.3% (.EXE) OS\/2 Executable (generic) (2029\/13)",
+                "5.2% (.EXE) Generic Win\/DOS Executable (2002\/3)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.GenericKDZ.93451.500.22844.UNOFFICIAL"
+                ],
+                "downloads": "320",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "f25a780095730701efac67e9d5b84bc289afea56d96d8aff8a44af69ae606404",
+            "sha3_384_hash": "91f8c2c5d6ef92b514c9c7a12174c5b719d2d4dfecabb744e4569692e854c83fb7b6d0c3c6a3bdca87cfe3237f759e23",
+            "sha1_hash": "1e7b9af799048e4112d2468323c5c147e20558f9",
+            "md5_hash": "4e4ae70b6346eae111e31716dc76bc23",
+            "first_seen": "2022-10-02 15:30:34",
+            "last_seen": null,
+            "file_name": "ooiwy.pdf",
+            "file_size": 323584,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "Linkavych",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "ab2c68685bab8fd78cc7ca3dc94a8e95",
+            "tlsh": "T13D64F04772B6E027C14A1F7608C6D0B29BE17D48BAC589C67D8FB62C2D75D03A933297",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:v39GX5QjsakVCm+3OgNA0VEXf\/DQEuOGAG:v65Qu\/+egA0VutG",
+            "magika": null,
+            "dhash_icon": "71b119dcce576333",
+            "trid": [
+                "42.7% (.EXE) Microsoft Visual C++ compiled executable (generic) (16529\/12\/5)",
+                "17.0% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "13.0% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "11.6% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "5.2% (.EXE) OS\/2 Executable (generic) (2029\/13)"
+            ],
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Variant.Bulz.629338.2491.19513.UNOFFICIAL"
+                ],
+                "downloads": "593",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "dfcfa69d0b5d19fc0a67171cbccf2abe899be9978b29b4f80beaf574cef41d83",
+            "sha3_384_hash": "36eec8c1bcd11d333e21cba6aba81112acc9590084096c4c77cea88a2707305d05dcc587d5923135301bd4fcff606efc",
+            "sha1_hash": "97576297ed9bf1fc7be9d9815f849a00de80ebe8",
+            "md5_hash": "6d987efb150e5655801617da450590de",
+            "first_seen": "2022-08-31 11:29:29",
+            "last_seen": null,
+            "file_name": "Mat\u00e9riel de biblioth\u00e8que_2022_FR .xlsx",
+            "file_size": 179408,
+            "file_type_mime": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "file_type": "xlsx",
+            "reporter": "cocaman",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T1C30412055370AC42C75A1E3B764F4AE604A41B56E49A9E015C06C2AF2D838FFA78FED9",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "3072:NeuU8154JQyW4\/qdKA\/eAUyVa4pj\/sMCziJ4SjYpTD0KMu\/pqt2V\/QiijPAA3CrH:IuzHKQb4\/2\/JUF4J1hYC3uBpIXj+H",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "60.1% (.XLSX) Excel Microsoft Office Open XML Format document (34000\/1\/7)",
+                "30.9% (.ZIP) Open Packaging Conventions container (17500\/1\/4)",
+                "7.0% (.ZIP) ZIP compressed archive (4000\/1)",
+                "1.7% (.PG\/BIN) PrintFox\/Pagefox bitmap (640x800) (1000\/1)"
+            ],
+            "tags": [
+                "TrickBot",
+                "xlsx"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "495",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "242f4433641dca2b2b9d3628544b3182c26d47303eb5622b9a56c1a977e8c66e",
+            "sha3_384_hash": "5a98a61baf864a250450b40bea1b610ff7035f8b00fc8d1b6679c67bf9947c03d4fa907bb22fb9dd6cc4cf70166898f8",
+            "sha1_hash": "9424531b1efaadcd63c80db62ba86c2420c67a02",
+            "md5_hash": "c6000183f9b149c646e1b53ab1d834bd",
+            "first_seen": "2022-08-31 11:28:11",
+            "last_seen": null,
+            "file_name": "Bibliotheksmaterial_DE022.xlsx",
+            "file_size": 168301,
+            "file_type_mime": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "file_type": "xlsx",
+            "reporter": "cocaman",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T1EBF31201A3706801C7951D7B768F4AE604A40F5BD9C66F02A446C26F2DC38EFBB9BED5",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "3072:IbJ4SjYpTD0KMu\/iZT549qt2V\/QiijPAA3Cru\/scEQyW4\/qdKA\/eAUyVa4pj\/sM9:4YC3u6ZdIpIXj+FQb4\/2\/JUF4J19",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "60.1% (.XLSX) Excel Microsoft Office Open XML Format document (34000\/1\/7)",
+                "30.9% (.ZIP) Open Packaging Conventions container (17500\/1\/4)",
+                "7.0% (.ZIP) ZIP compressed archive (4000\/1)",
+                "1.7% (.PG\/BIN) PrintFox\/Pagefox bitmap (640x800) (1000\/1)"
+            ],
+            "tags": [
+                "TrickBot",
+                "xlsx"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "471",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "069739cb5a77bd4d1782bdcf1e0324d7c4d63493d4addfb0913093981f96c8c2",
+            "sha3_384_hash": "76eaeac7a5ee507e44c0c75f41f8715588ec04b75ded1cce374468eba68a9d1fdf2c531e3682ff3beba43f791e5d478d",
+            "sha1_hash": "dc384a4507e6ca8674e19210f8a41ed7f7d59467",
+            "md5_hash": "7f2207f5aa02bb6e6b24dd92cb50a5d9",
+            "first_seen": "2022-08-19 08:59:57",
+            "last_seen": null,
+            "file_name": "pre.exe",
+            "file_size": 8157184,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "Ranofult",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "3522c808e9759c0b8b853f9f145e6397",
+            "tlsh": "T1FE869E43977400E9E9EBC03589168927E7B2B4540731D7EF15A09BA62F737E28E7E312",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "98304:xTjVfOzAqU\/qq\/BxVSYVKhBsSYLBunjhm:xTjVOwBxVSYVK0SYAh",
+            "magika": null,
+            "dhash_icon": "e09a676060678ee0",
+            "trid": [
+                "48.7% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "23.3% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "9.3% (.EXE) OS\/2 Executable (generic) (2029\/13)",
+                "9.2% (.EXE) Generic Win\/DOS Executable (2002\/3)",
+                "9.2% (.EXE) DOS Executable Generic (2000\/1)"
+            ],
+            "tags": [
+                "backdoor",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "ditekSHen.MALWARE.Win.Trojan.IAmTheKingKeylogger.UNOFFICIAL"
+                ],
+                "downloads": "740",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "c9434a3b15609527d6a986d747aa13a90786d1e86fddd864cbfbaf2f01bfe1fb",
+            "sha3_384_hash": "6df956edfef570f2abab8df57e85a22a52696c2f3a856afe4825fdccf600d7e9530a83eca0cc3c2c1556c2d4581d213a",
+            "sha1_hash": "084abcb69b8a1db256b363746ce6ef6f7cd547d8",
+            "md5_hash": "0d57d2bef1296be62a3e791bfad33bcd",
+            "first_seen": "2022-08-12 07:00:11",
+            "last_seen": null,
+            "file_name": "c9434a3b15609527d6a986d747aa13a90786d1e86fddd864cbfbaf2f01bfe1fb",
+            "file_size": 267693,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "9402b48d966c911f0785b076b349b5ef",
+            "tlsh": "T17344DF1735E2C0BBD4526930EA286EF891B7BD79F679640BEB833E1FFA309405451623",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:DcWMJJhqryYP\/daqQ1rysMItKkEn5+zP2\/t24UYyeztON83bJd:DczJJhqrVPlerZMVk0+zP2V24Ugukbj",
+            "magika": null,
+            "dhash_icon": "45453333d4d4552b",
+            "trid": [
+                "80.5% (.EXE) WinRAR Self Extracting archive (4.x-5.x) (265042\/9\/39)",
+                "9.4% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "3.1% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "1.9% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "1.5% (.EXE) Win16 NE executable (generic) (5038\/12\/1)"
+            ],
+            "tags": [
+                "exe",
+                "news-nhknews-hk",
+                "paloaltonetworks thailand",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "PUA.Win.Packer.WinrarSfx-1",
+                    "SecuriteInfo.com.Trojan.Generic.4353866.9047.25086.UNOFFICIAL"
+                ],
+                "downloads": "386",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "ca7cd0d3b5582ac4257c8ed31799d4fd577cdff1bf7ff018946b6284c0bbd617",
+            "sha3_384_hash": "60d5d72c9faa0d00eeb5b33c7dd377d9fef1ab511c9b4fe7026fedd48c290302aa3663191d0d53d14f93bb70bdb47eb7",
+            "sha1_hash": "f3fda6f46c7316381a65ccc26e94cb0ac448ec46",
+            "md5_hash": "ba1aea40182861e1d1de8c0c2ae78cb7",
+            "first_seen": "2022-08-12 06:58:59",
+            "last_seen": null,
+            "file_name": "ca7cd0d3b5582ac4257c8ed31799d4fd577cdff1bf7ff018946b6284c0bbd617",
+            "file_size": 1643559,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "c9adc83b45e363b21cd6b11b5da0501f",
+            "tlsh": "T107751221218005FFC1A1097B2967EFF67235AE0D1E28587772C97A69473A34F3DB825D",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "24576:SAT8QE+k5ojj\/5Vn1SPsjFqNY1Vt7ZES2PxLz2NjE9f9xSx5BGBw6eV198:SAI+1\/msRMYhmFBYT5BjX+",
+            "magika": null,
+            "dhash_icon": "00cc8ac4c696048a",
+            "trid": [
+                "92.6% (.EXE) Win32 Executable Borland Delphi 7 (664796\/42\/58)",
+                "1.9% (.EXE) Win32 Executable Delphi generic (14182\/79\/4)",
+                "1.8% (.SCR) Windows screen saver (13101\/52\/3)",
+                "1.3% (.EXE) DOS Borland compiled Executable (generic) (10000\/1\/2)",
+                "0.6% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "paloaltonetworks thailand",
+                "thailandbbs-ddns-net",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.PSW.Generic8.ISF.UNOFFICIAL",
+                    "Win.Trojan.Bookworm-5"
+                ],
+                "downloads": "383",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "e2dce038ea6a354da4d34d579a02f14c67ceba6a1b4acea59d12101aa1c5585d",
+            "sha3_384_hash": "696f94ed3ba9e61135f26b1c67173c05e645d9c01132c19a15ff1ec63fb9c2deaa84a20ac58c20a28156ba7e463f131d",
+            "sha1_hash": "1afd72a119a7261179b2f58d1e9ccec7abdd4353",
+            "md5_hash": "74c293acdda0d2c3b5087763dae27ec6",
+            "first_seen": "2022-08-12 06:58:55",
+            "last_seen": null,
+            "file_name": "e2dce038ea6a354da4d34d579a02f14c67ceba6a1b4acea59d12101aa1c5585d",
+            "file_size": 239199,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "50610e34092d6ce13e51e7c9d5197081",
+            "tlsh": "T14634D02737DB08B6CD4785744F6A6794D2F88C317112DEF3EB611619BBB03A2910A9E3",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:mEpkFdqGIh+djouPq4GhJQGF+QE2DtM67tmrkuVhEn7u5b9\/p:mEGdBIh+djou5u\/2qMrkucn7u3B",
+            "magika": null,
+            "dhash_icon": "0c0c0c0c2c2c2c2c",
+            "trid": [
+                "48.8% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "16.4% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "10.2% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.8% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.0% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "paloaltonetworks thailand",
+                "thailandbbs-ddns-net",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "375",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "996b9e029e0d93efa265c69b2cf1cfac64b3b848ae936b2c43f2decdd591757e",
+            "sha3_384_hash": "30e601faf9a048895e5519a19b2bfaffb225081b51e2a20b41c6b8805af41ae28844e28301c799e4aa1a0833f5d982ce",
+            "sha1_hash": "a73c35fa1b378170ac7d7f2caccf083728564bc4",
+            "md5_hash": "db86be5c9d964461352838299b3f9ded",
+            "first_seen": "2022-08-12 06:57:36",
+            "last_seen": null,
+            "file_name": "996b9e029e0d93efa265c69b2cf1cfac64b3b848ae936b2c43f2decdd591757e",
+            "file_size": 237937,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "50610e34092d6ce13e51e7c9d5197081",
+            "tlsh": "T11834F16376D110BBF90451302ABDA746F6799F34A335A522FB6139063B703EE860B753",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:\/EpkFdqGIh+djouPq+koJMuF+QaG9WefAtSfGwvFNGQAb:\/EGdBIh+djousTG7\/QQGeFHAb",
+            "magika": null,
+            "dhash_icon": "c639d9c8ece4e31c",
+            "trid": [
+                "48.8% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "16.4% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "10.2% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.8% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.0% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "bkmail-blogdns-com",
+                "exe",
+                "paloaltonetworks thailand",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Trojan.Mikey-9958102-0"
+                ],
+                "downloads": "382",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "a4aec5be955ee173dc70e6bb6b34015eac9d00a24f4543454d5c44d3e0e6b0ab",
+            "sha3_384_hash": "9019301ef12d794edbb8f4dbb727fc1513ac1cac8d18f9238932e6a5138fc4f384654b4e82f0adacac5b49949c12ee86",
+            "sha1_hash": "80e225559b5a759131480be82fd5081fbb831e4c",
+            "md5_hash": "1ffdddbf63aa7d02e1e0c14390f9593b",
+            "first_seen": "2022-08-12 06:57:30",
+            "last_seen": null,
+            "file_name": "a4aec5be955ee173dc70e6bb6b34015eac9d00a24f4543454d5c44d3e0e6b0ab",
+            "file_size": 237881,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "50610e34092d6ce13e51e7c9d5197081",
+            "tlsh": "T12B34012735C1107BFA4111306AAEB756FA7EAA3963319632FF61391A373039E8607753",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:GEpkFdqGIh+djouPq+koJMuF+Qs22bhjAAi8G+7jSbuiFLyIvfsxAaa\/T:GEGdBIh+djousTGw221UAi8\/YuiFWIH\/",
+            "magika": null,
+            "dhash_icon": "c639d9c8ece4e31c",
+            "trid": [
+                "48.8% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "16.4% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "10.2% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.8% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.0% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "bkmail-blogdns-com",
+                "exe",
+                "paloaltonetworks thailand",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Trojan.Mikey-9958102-0"
+                ],
+                "downloads": "378",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "fb0eac6223b17d68eaf7753aa83135c5574d6b718552bc49128e71ac52412196",
+            "sha3_384_hash": "931ab25d373bacf8343ad95a53d9287099abb1132e9ced7cab9cc65722d26639de67b6321e26b52b39bc8ec002fe0d55",
+            "sha1_hash": "da5fb360b0055ec6318ec19e4857f8329f2ea35a",
+            "md5_hash": "210816c8bde338bf206f13bb923327a1",
+            "first_seen": "2022-08-12 06:55:27",
+            "last_seen": null,
+            "file_name": "fb0eac6223b17d68eaf7753aa83135c5574d6b718552bc49128e71ac52412196",
+            "file_size": 240271,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "50610e34092d6ce13e51e7c9d5197081",
+            "tlsh": "T1E334E11B3B8B48B6DC0785301B662B46C7FC9C357191EFF3EB752618B670351A249AA3",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:mEpkFdqGIh+djouPq4GhJQSjZ511MQbJOI1sIjiqRw08B1z2S:mEGdBIh+djou5Sl53MIJOIOIGq608B1d",
+            "magika": null,
+            "dhash_icon": "0c0c0c0c2c2c2c2c",
+            "trid": [
+                "48.8% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "16.4% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "10.2% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.8% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.0% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "paloaltonetworks thailand",
+                "systeminfothai-gotdns-ch",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "370",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "e52b87d95794977261728f9a25c3f59df86a3a7246f7607fbb1fbf9a0e85631d",
+            "sha3_384_hash": "7c497ff0b3d65e38620116327ba247bf776955d3d306a0d2b7e0da2a46f3ebe044573f49247fb51625ce09587efb5528",
+            "sha1_hash": "2c4d72f47165bfd207d6c52f1bf5ab4fd1c27513",
+            "md5_hash": "599b6e05a38329081b80a461b57cec37",
+            "first_seen": "2022-08-12 06:55:25",
+            "last_seen": null,
+            "file_name": "e52b87d95794977261728f9a25c3f59df86a3a7246f7607fbb1fbf9a0e85631d",
+            "file_size": 1657119,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "c9adc83b45e363b21cd6b11b5da0501f",
+            "tlsh": "T1A2750121A3A64EB6C4923CF94143A7E5A7756F090E3E90ED9EC73D8CD836A47097C1E4",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "24576:pAT8QE+kwjj\/yDWVVBdx9wkqcY1jV7ZE0w5xLATNUrhwSnQtnwCet4EWPAm\/JW5E:pAI+L\/yiVVBDNYjmRrbO64LPAmxWO+2",
+            "magika": null,
+            "dhash_icon": "c2daa5d2d99ca49b",
+            "trid": [
+                "87.5% (.EXE) Win32 Executable Borland Delphi 7 (664796\/42\/58)",
+                "5.4% (.EXE) Win32 EXE PECompact compressed (generic) (41569\/9\/9)",
+                "1.8% (.EXE) Win32 Executable Delphi generic (14182\/79\/4)",
+                "1.7% (.SCR) Windows screen saver (13101\/52\/3)",
+                "1.3% (.EXE) DOS Borland compiled Executable (generic) (10000\/1\/2)"
+            ],
+            "tags": [
+                "exe",
+                "paloaltonetworks thailand",
+                "systeminfothai-gotdns-ch",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.PSW.Generic8.ISF.UNOFFICIAL",
+                    "Win.Trojan.Bookworm-6"
+                ],
+                "downloads": "358",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "bbe239ed1acde94f1d9b3e2f64e11505038983fea781351bf4a0e6af53f92b33",
+            "sha3_384_hash": "9422c41f1d94d25871ba3bb622cd9ad579e1f0795b6b9a21ff1b13842b2632ed5d97ed7c1b4877701a45eaf21e61c9b9",
+            "sha1_hash": "4f93211b90e952732715f73297fc3892b3c3c923",
+            "md5_hash": "d7b1bdd1880da09cc9a4550053972dc4",
+            "first_seen": "2022-08-12 06:55:24",
+            "last_seen": "2022-08-12 07:01:43",
+            "file_name": "bbe239ed1acde94f1d9b3e2f64e11505038983fea781351bf4a0e6af53f92b33",
+            "file_size": 249831,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "50610e34092d6ce13e51e7c9d5197081",
+            "tlsh": "T1D334F1173B8B04B6DC0785302B656F42C6FC99363191EFF3EB746618B670391A749AA3",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:jEpkFdqGIh+djouPq4GhJQSjZ511MQbJOI1sIjiqRw08B1z2K:jEGdBIh+djou5Sl53MIJOIOIGq608B19",
+            "magika": null,
+            "dhash_icon": "0c0c0c0c2c2c2c2c",
+            "trid": [
+                "48.8% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "16.4% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "10.2% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.8% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.0% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "paloaltonetworks thailand",
+                "sysnc-sytes-net",
+                "systeminfothai-gotdns-ch",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Trojan.Mikey-9958102-0"
+                ],
+                "downloads": "357",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "755a4b2ec15da6bb01248b2dfbad206c340ba937eae9c35f04f6cedfe5e99d63",
+            "sha3_384_hash": "daae36721385b2492bb707ad6fb830830f6f78a0160f3d6bc1037b3ed80a2b279edc188e0be2817683fb2f40032f0dfa",
+            "sha1_hash": "56ee57de81ecea6a2c83d5430238fa98a041e8eb",
+            "md5_hash": "cba74e507e9741740d251b1fb34a1874",
+            "first_seen": "2022-08-12 06:55:22",
+            "last_seen": null,
+            "file_name": "755a4b2ec15da6bb01248b2dfbad206c340ba937eae9c35f04f6cedfe5e99d63",
+            "file_size": 1580101,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "c9adc83b45e363b21cd6b11b5da0501f",
+            "tlsh": "T162752331B142443BC0A209785947A3B6B636FB081B3C69DF73DD58ACC93735A2A663D9",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "24576:pAT8QE+kzjj\/IxaSyRBCy6qqY1da7ZE+3BxNERNR700TVQtJmQtWadWPMmuioG5:pAI+M\/IaSueDYOmilISMasPMmuLG5",
+            "magika": null,
+            "dhash_icon": "b298acbab2ca7a72",
+            "trid": [
+                "82.1% (.EXE) Win32 Executable Borland Delphi 7 (664796\/42\/58)",
+                "5.3% (.EXE) InstallShield setup (43053\/19\/16)",
+                "5.1% (.EXE) Win32 EXE PECompact compressed (generic) (41569\/9\/9)",
+                "1.7% (.EXE) Win32 Executable Delphi generic (14182\/79\/4)",
+                "1.6% (.SCR) Windows screen saver (13101\/52\/3)"
+            ],
+            "tags": [
+                "exe",
+                "paloaltonetworks thailand",
+                "systeminfothai-gotdns-ch",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.PSW.Generic8.ISF.UNOFFICIAL",
+                    "Win.Trojan.Bookworm-2"
+                ],
+                "downloads": "357",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "05ff897f430fec0ac17f14c89181c76961993506e5875f2987e9ead13bec58c2",
+            "sha3_384_hash": "6f6aa5388a58e7a77538684af98e83a6ed9730143a4929f662a0d76b2897769cf3fe18b11204125117e279a8ff756d20",
+            "sha1_hash": "ec9d8f323d6a93e3fb83fb263d5aa291e16e9414",
+            "md5_hash": "0b4ad1bd093e0a2eb8968e308e900180",
+            "first_seen": "2022-08-12 06:55:21",
+            "last_seen": null,
+            "file_name": "05ff897f430fec0ac17f14c89181c76961993506e5875f2987e9ead13bec58c2",
+            "file_size": 239207,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "50610e34092d6ce13e51e7c9d5197081",
+            "tlsh": "T1D934E0273B8704B9CC0745301F392BA2C2F5CD357564EFF6EF612629B6B02A593466A3",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:mEpkFdqGIh+djouPq4GhJQSjZ70XMfigah+BQcsmU:mEGdBIh+djou5Sl77fXaoyRD",
+            "magika": null,
+            "dhash_icon": "0c0c0c0c2c2c2c2c",
+            "trid": [
+                "48.8% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "16.4% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "10.2% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.8% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.0% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "paloaltonetworks thailand",
+                "systeminfothai-gotdns-ch",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "352",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "d1ed384ca23772c87eb01fc9c1cc4f33451fc6712be1767a0045af46e4d8a868",
+            "sha3_384_hash": "37defe9c0896b50dc3b4c88dcc3dbfe57e6705c1d85d4de099675c796ea31e21e83aa6790f73472b67ad235c92ec5207",
+            "sha1_hash": "408ca748d18b08237e46f42dcbabc3c3c0fd98d2",
+            "md5_hash": "5e4852c8e5ef3cbceb69a9bc3d554d6c",
+            "first_seen": "2022-08-12 06:47:10",
+            "last_seen": null,
+            "file_name": "d1ed384ca23772c87eb01fc9c1cc4f33451fc6712be1767a0045af46e4d8a868",
+            "file_size": 239334,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "JAMESWT_MHT",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "9402b48d966c911f0785b076b349b5ef",
+            "tlsh": "T1F334CF4235E2C0B7E4121530EE292EF995B7BDB9FA746503EB933E0FFA305516815623",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:DcWMJJhqryYP\/daqQ1rH0Phm1N6fto\/sQ:DczJJhqrVPlerSU1N3",
+            "magika": null,
+            "dhash_icon": "45453333d4d4552b",
+            "trid": [
+                "80.5% (.EXE) WinRAR Self Extracting archive (4.x-5.x) (265042\/9\/39)",
+                "9.4% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "3.1% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "1.9% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "1.5% (.EXE) Win16 NE executable (generic) (5038\/12\/1)"
+            ],
+            "tags": [
+                "exe",
+                "paloaltonetworks thailand",
+                "TrickBot",
+                "web12-nhknews-hk"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "PUA.Win.Packer.WinrarSfx-1",
+                    "SecuriteInfo.com.Trojan.Generic.4353866.9047.25086.UNOFFICIAL"
+                ],
+                "downloads": "351",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "87ec9b5cb7f8dbdf5ea89cade8ab71b3303acff94b119c22bc2cc8c18a4e4260",
+            "sha3_384_hash": "6e075da540c40d43b78aecd455d538aa190cf0d91af9bf6788a1272ea48fdd1fbe9399a5220e27c6fba87b7c17ecd09c",
+            "sha1_hash": "89c1fc346a3cbea98800353a80c1a82dec8c5dc9",
+            "md5_hash": "d227fc7cdca661e0f0090ccd34d1710d",
+            "first_seen": "2022-08-11 16:28:45",
+            "last_seen": "2022-08-12 06:48:16",
+            "file_name": "something.exe",
+            "file_size": 248894,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "James_inthe_box",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "9402b48d966c911f0785b076b349b5ef",
+            "tlsh": "T18E34CF4235E2C0B7E4121930EE286EF999B7BDB9FA745503EB933D0FFA306416915623",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:DcWMJJhqryYP\/daqQ1rH0Phm1N6fto\/sc:DczJJhqrVPlerSU1N7",
+            "magika": null,
+            "dhash_icon": "45453333d4d4552b",
+            "trid": [
+                "80.5% (.EXE) WinRAR Self Extracting archive (4.x-5.x) (265042\/9\/39)",
+                "9.4% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "3.1% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "1.9% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "1.5% (.EXE) Win16 NE executable (generic) (5038\/12\/1)"
+            ],
+            "tags": [
+                "exe",
+                "paloaltonetworks thailand",
+                "TrickBot",
+                "web12-nhknews-hk",
+                "web12.nhknews.hk"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "PUA.Win.Packer.WinrarSfx-1",
+                    "SecuriteInfo.com.Trojan.Generic.4353866.9047.25086.UNOFFICIAL",
+                    "Win.Trojan.Mikey-9958102-0"
+                ],
+                "downloads": "454",
+                "uploads": "4",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "df220d6e6d61d0cbad830bc74e1767a09285cbd009803e8af25ddf2901fb21c8",
+            "sha3_384_hash": "af680f3d7ee0f24a3478f10112ee3849ee6f6cc86fe2b20120d5c74c34050da2e3bd986fe6addea680094983c096161d",
+            "sha1_hash": "d339f3ca55dd7408b2dd13b26b0b950e18c62abe",
+            "md5_hash": "d8cc76df2a3e20314ec2a8d91f69e9d0",
+            "first_seen": "2022-07-15 17:29:33",
+            "last_seen": "2024-07-24 22:15:08",
+            "file_name": "virussign.com_d8cc76df2a3e20314ec2a8d91f69e9d0",
+            "file_size": 466944,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "KdssSupport",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "58471b8a9f8702d1a9e4838d7b7d501a",
+            "tlsh": "T123A44C2DEB247969F15309B576002A9B3C918D385293DF46EB4689CDB401EE3F2F532B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:zJB0PLonpe1h5nxJ48INpUubY3DNtjKh2ClmoyZ07rJi6dSM1twTrmRGwY8kh0+T:zJB0lh7r6bIj22CAoyerJVbtqeY89bsz",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "54.4% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "18.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "8.7% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.8% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "3.5% (.EXE) OS\/2 Executable (generic) (2029\/13)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Mansabo-7102049-0"
+                ],
+                "downloads": "228",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "17734caa69d900f972df17d7fbe08f1dcfc80e67687d9b3be98ce22e6d22c2ca",
+            "sha3_384_hash": "153d2d8849de1f7f30a99cbf426e6d70a3901022b50caa2a7ca62513523220126a62c6332243b89479df260531a103fd",
+            "sha1_hash": "d5de16ec9e8fbd3490b71ae9b9e2c4dd2649ecaa",
+            "md5_hash": "cabc850dd4d3ea237b28410526085b10",
+            "first_seen": "2022-07-13 14:27:50",
+            "last_seen": null,
+            "file_name": "virussign.com_cabc850dd4d3ea237b28410526085b10",
+            "file_size": 698812,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "KdssSupport",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "58471b8a9f8702d1a9e4838d7b7d501a",
+            "tlsh": "T17BE4AF2DEB147969F15309B576102A9B3C918D384293DF46EB4689CDB801EE3F2F532B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:zJB0lh7r6bIj22CAoyerJVbtqeql2THGseB\/A96gFG7F245glIo8HuLWUV\/IFIT:zQ7W81HeqwTHVepA9uprikOL7wS",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "40.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "19.3% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "17.2% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "7.7% (.EXE) OS\/2 Executable (generic) (2029\/13)",
+                "7.6% (.EXE) Generic Win\/DOS Executable (2002\/3)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Mansabo-7102049-0"
+                ],
+                "downloads": "239",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "1662a8826aaf326ff50344c4038de0a3c67acb810dadc2036d08394d4feab1cd",
+            "sha3_384_hash": "7c56e55262bdd86226efabb3cfd261a6e98ebf4289459d41d65fd7388456a74fa3c600c6390e56897e90f618be2859c0",
+            "sha1_hash": "c4129996aface330dfa653b14ef7bebc39b5afbc",
+            "md5_hash": "bff2e8f15fbe1cb0fe273d9f55a3cdb0",
+            "first_seen": "2022-07-13 14:26:35",
+            "last_seen": null,
+            "file_name": "virussign.com_bff2e8f15fbe1cb0fe273d9f55a3cdb0",
+            "file_size": 615322,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "KdssSupport",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "58471b8a9f8702d1a9e4838d7b7d501a",
+            "tlsh": "T1D8D48E2DEB243969F15309B57610269B3C918D385293DF46EB4689CEB401EE3F2F532B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:zJB0lh7r6bIj22CAoyerJVbtqeg6D0FJqDBgF88VA1VKId9R:zQ7W81Hel2cDR",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "40.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "19.3% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "17.2% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "7.7% (.EXE) OS\/2 Executable (generic) (2029\/13)",
+                "7.6% (.EXE) Generic Win\/DOS Executable (2002\/3)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Mansabo-7102049-0"
+                ],
+                "downloads": "234",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "7e0e53117e2afe5e234cdb963f831815af51c5699f1a3c1be5618de8cab617a1",
+            "sha3_384_hash": "763fe42b5f0f6160d3587c6471894cc1ed6a7ba386f241e9dca44cb2f496448de4b0ff354dfe68aa64b3ded1a709996a",
+            "sha1_hash": "bf619d2b95151335b96e0c7f53452683ed31be73",
+            "md5_hash": "9ca97ef989a1beb1ec96444a165acb10",
+            "first_seen": "2022-07-13 14:23:40",
+            "last_seen": null,
+            "file_name": "virussign.com_9ca97ef989a1beb1ec96444a165acb10",
+            "file_size": 587745,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "KdssSupport",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "58471b8a9f8702d1a9e4838d7b7d501a",
+            "tlsh": "T178C47E2DEB247569F15309B5760026AB3C918D385293DF46EB4685CDB801EE3F2F932B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:zJB0lh7r6bIjPyob1NCY4mHk\/XEZfVlF6tw\/951HQ0:zQ7W8bnngXEZtyG\/a0",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "54.4% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "18.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "8.7% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.8% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "3.5% (.EXE) OS\/2 Executable (generic) (2029\/13)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Mansabo-7102049-0"
+                ],
+                "downloads": "205",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "21023caae61aa166f804c8252afd964870fb3bdd0ea5da64d268b2010909402f",
+            "sha3_384_hash": "4232dbf63055f0746ca6c9b09a4166fa91efb9c9a28c30dd678f79bdfc863976478f58e6c7df435a587c75c4d82ed7f3",
+            "sha1_hash": "38258810bb9c9e408820c83b3cb1f90878d4317c",
+            "md5_hash": "5f7a55c4158504c0ad2e00bd7082db40",
+            "first_seen": "2022-07-13 14:19:11",
+            "last_seen": null,
+            "file_name": "virussign.com_5f7a55c4158504c0ad2e00bd7082db40",
+            "file_size": 614310,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "KdssSupport",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "58471b8a9f8702d1a9e4838d7b7d501a",
+            "tlsh": "T1AFD48E29EB243969F15309B57610269B3C918D385293DF46FB4689CEB401EE3F2F532B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:zJB0lh7r6bIj22CAoyerJVbtqeg6D0FJqDBgF88VA1VKId+U:zQ7W81Hel2ccU",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "40.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "19.3% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "17.2% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "7.7% (.EXE) OS\/2 Executable (generic) (2029\/13)",
+                "7.6% (.EXE) Generic Win\/DOS Executable (2002\/3)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Mansabo-7102049-0"
+                ],
+                "downloads": "201",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "8c35d10b6c6d4988b5015a286646e5c6ec8cc32651e5a87483d3ae95ceb154cb",
+            "sha3_384_hash": "2cbdafd8bec4a65ec38576653fd27a76078c3609661f25290d8cbb4db66c26eb85b964dc9ff328e51718c55b9e102c00",
+            "sha1_hash": "c15786530553bdb2690ee7c77a703ade19eab487",
+            "md5_hash": "486ccb030743ecc1a1e2ce89dc7cbe10",
+            "first_seen": "2022-07-13 14:17:47",
+            "last_seen": null,
+            "file_name": "virussign.com_486ccb030743ecc1a1e2ce89dc7cbe10",
+            "file_size": 658838,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "KdssSupport",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "58471b8a9f8702d1a9e4838d7b7d501a",
+            "tlsh": "T1D1E49F29EB143969F15309B5761026EB3C918D385293DF46EB4689CEB401EE3F2F532B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:zJB0lh7r6bIj22CAoyerJVbtqeg6D0FJqDBgF88VA1VKIdhRL:zQ7W81Hel2c7J",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "40.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "19.3% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "17.2% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "7.7% (.EXE) OS\/2 Executable (generic) (2029\/13)",
+                "7.6% (.EXE) Generic Win\/DOS Executable (2002\/3)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Mansabo-7102049-0"
+                ],
+                "downloads": "204",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "419261b64f1cf0a480d32db9e3c12f63a240a3d7bbfd7b69067c18080375adf4",
+            "sha3_384_hash": "364560219b3a3d0f3bf1c4e7a2d02c1c3415991defcd3f203d587ad3e351ccdae318376a998639ff364974cf5f14cd7d",
+            "sha1_hash": "91232c2f8c9e6be1521aa9cfb762174c36b14955",
+            "md5_hash": "3678391f5f1ebf5ab6d2b691f2f83150",
+            "first_seen": "2022-07-13 14:16:21",
+            "last_seen": null,
+            "file_name": "virussign.com_3678391f5f1ebf5ab6d2b691f2f83150",
+            "file_size": 605455,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "KdssSupport",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "58471b8a9f8702d1a9e4838d7b7d501a",
+            "tlsh": "T10BD48E2DEB247969F15349B57600269B3C918D384293DF46EB8689CDB401EE3F2F532B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:zJB0lh7r6bIj22CAoyerJVbtqeql2THGseB\/A96gFGciMf:zQ7W81HeqwTHVepA9uT4",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "40.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "19.3% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "17.2% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "7.7% (.EXE) OS\/2 Executable (generic) (2029\/13)",
+                "7.6% (.EXE) Generic Win\/DOS Executable (2002\/3)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Mansabo-7102049-0"
+                ],
+                "downloads": "200",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "2fbd7ad28bbf3e178fd6e94d8fa3345ab235ed274b7b8de56d63b7be3b6b16ab",
+            "sha3_384_hash": "046959c94e890f995918c2167d2fb27643a0d6e4650ea2f4b7b493ea8cf9df4c35c0da46ca13abbdc8cd305ada9239d4",
+            "sha1_hash": "20e6223a0e401bfd840ade7ade7a3f8f591f0d06",
+            "md5_hash": "2dfb2a7da361bab98cf8d3d66a5bbc80",
+            "first_seen": "2022-07-13 14:15:42",
+            "last_seen": null,
+            "file_name": "virussign.com_2dfb2a7da361bab98cf8d3d66a5bbc80",
+            "file_size": 683632,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "KdssSupport",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "58471b8a9f8702d1a9e4838d7b7d501a",
+            "tlsh": "T1B9E49F2DEB247969F15309B5760026DB3C918D784293DF46EB46898EB401EE3F2F532B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:zJB0lh7r6bIj22CAoyerJVbtqeg6D0FH1qx5jbmz+f22j:zQ7W81HeQ0mCfxj",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "54.4% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "18.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "8.7% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.8% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "3.5% (.EXE) OS\/2 Executable (generic) (2029\/13)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Malware.Mansabo-7102049-0"
+                ],
+                "downloads": "205",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "b7cbc5e5dc182c8d99809cd64d36734abeb6bfac15e6efc2ebcc2c57254bf172",
+            "sha3_384_hash": "40acf4c4f672dbc849d4159fd71d4207eacd324b359a76c2d12afcac8b3e2be9bd01af57e34423a9f8e310096cd2a3ed",
+            "sha1_hash": "516c7a538e93f7cf4bff29196511f94e5fbb5a40",
+            "md5_hash": "8402ab33eafb84178069f8f490ca604d",
+            "first_seen": "2022-07-08 09:22:51",
+            "last_seen": null,
+            "file_name": "sefff993.bin",
+            "file_size": 377097,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "KdssSupport",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "f3ca748f76db44ff1430515217457e6d",
+            "tlsh": "T13F84A7FC56C61611B0ECCDB7C7129F6AF655BF535328B29A284C82BD702283F0259A77",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:jo5N5OazOZaTDWlVnrchrahdOxveC2wo80\/agxb0zLz4qM:jmSuOcHmnYhrDMTrban4qM",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": [
+                "46.4% (.EXE) Microsoft Visual C++ compiled executable (generic) (16529\/12\/5)",
+                "29.5% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "12.6% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "5.6% (.EXE) Generic Win\/DOS Executable (2002\/3)",
+                "5.6% (.EXE) DOS Executable Generic (2000\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Trojan.Razy-7331425-0",
+                    "Win.Trojan.Trickbot-9954280-0"
+                ],
+                "downloads": "729",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "415e04eb340f1b092288cbcc71295a2c95e864fc1bbfcd55d6e3f5aa67099b1a",
+            "sha3_384_hash": "d602957f9e390a1b02b86632b7ce7a5a41654eb1d3ab636980801ebd46c89fc9ef3ae456fe09c811b6f242dca17ec78c",
+            "sha1_hash": "d02f452d01660387fd78d40e9f2405c3e38c9668",
+            "md5_hash": "367b6a5c0e0e8ec68ea14a085b1d32b3",
+            "first_seen": "2022-06-23 09:55:13",
+            "last_seen": "2022-06-24 08:59:27",
+            "file_name": "solar.php",
+            "file_size": 679008,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": "TrickBot",
+            "imphash": "de3b3bef1d15dd8ecc264ee790a36468",
+            "tlsh": "T1E6E4CF13FAE1C07AC6E311304FD6D7B866F6FA114E73454372D90B0E1E35A8A963AB16",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:nO4BydKj3ACZfNFEnw6qJxs3UPwgDrZiI0OSnnox7Yu:OOyO3YnwFRPVXZf09nMD",
+            "magika": null,
+            "dhash_icon": "b8a424fcecec6c70",
+            "trid": [
+                "54.4% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "18.3% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "8.7% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.8% (.EXE) Win32 Executable (generic) (4505\/5\/1)",
+                "3.5% (.EXE) OS\/2 Executable (generic) (2029\/13)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "614",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "581b79b5c8be140547875965eb8b351dac5c511f41c2459c2d19f2fb41a10d4c",
+            "sha3_384_hash": "0bc4e95e6b8ca2d6d8f412a85c622405fe1104790b3efbf1b702539a0eca15210f208cbd0f5e254167fed0f5ec0118a5",
+            "sha1_hash": "cb0b2e7d410053d17e97515aa8507a049b56e130",
+            "md5_hash": "6b05850fb0ee9a7e65eda7f9df6e825f",
+            "first_seen": "2022-06-14 14:45:20",
+            "last_seen": "2022-06-14 15:48:05",
+            "file_name": "\u5efa\u4fe1\u4e91\u80fd\u6570\u5b57\u79d1\u6280\u6709\u9650\u516c\u53f8\u5404\u5730\u533a\u51fa\u52e4\u7edf\u8ba120220614.exe",
+            "file_size": 142384,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "obfusor",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "a5b91ef293e1adb4aff4f249a2b5ad18",
+            "tlsh": "T181D36D47B3A434FAE076863588628906E736BC3607A19B5F13A0735A5F333D16D3EB61",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "3072:UA\/0KpkVL4wVvkKQAT2KE\/hfheMMHyePVbGDzaba:UfekVLxAAT2bheHPV6h",
+            "magika": null,
+            "dhash_icon": "74ecc4e2e4e4e0d4",
+            "trid": [
+                "48.7% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "23.3% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "9.3% (.EXE) OS\/2 Executable (generic) (2029\/13)",
+                "9.2% (.EXE) Generic Win\/DOS Executable (2002\/3)",
+                "9.2% (.EXE) DOS Executable Generic (2000\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.UDS.Trojan.Win64.Zenpak.bjz.5379.5435.UNOFFICIAL"
+                ],
+                "downloads": "331",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "a4ad69ba5f948a165b7443439a9dfd9d84d71b4c729bbe3909b493dbe84cad7b",
+            "sha3_384_hash": "d441e7513c993f1d636753246c6cdfbf06632c52f5504d0f2394a469fbdb089be2b1452b189025501f23e069dc9669e2",
+            "sha1_hash": "4b4c683ca22aaa919ef58a5af417073b37ea94f9",
+            "md5_hash": "d56e4b539b3316f09313fabb4b7b4c4a",
+            "first_seen": "2022-06-13 15:59:06",
+            "last_seen": "2022-06-13 16:49:48",
+            "file_name": "\u5efa\u4fe1\u4eba\u5bff\u4fdd\u9669\u80a1\u4efd\u6709\u9650\u516c\u53f8\u5929\u6d25\u5206\u516c\u53f8\u7b2c\u4e8c\u5b63\u5ea6\u4e94\u6708\u4efd\u8003\u52e4\u5f02\u5e38\u767b\u8bb0\u8868202206131013.exe",
+            "file_size": 134144,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "obfusor",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "c55fb8b4b38cd18b83d9759e886fff0f",
+            "tlsh": "T179D35C5B73A534F9E5B6853589908905D372BC710BA18FAF03A062969F372D0AD3EF30",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "3072:SpDRuLpVAWmLAo3DGdIyzWWMOXThodeTZwyH1X:QMze8o3D8y6eiWy",
+            "magika": null,
+            "dhash_icon": "74ecc4e2e4e4e0d4",
+            "trid": [
+                "48.7% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "23.3% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "9.3% (.EXE) OS\/2 Executable (generic) (2029\/13)",
+                "9.2% (.EXE) Generic Win\/DOS Executable (2002\/3)",
+                "9.2% (.EXE) DOS Executable Generic (2000\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.ArtemisD56E4B539B33.16908.32103.UNOFFICIAL"
+                ],
+                "downloads": "345",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "7e8c547fcc86e26b973e4c974da8ee2c4cfe84846e2cdfcd7f265929d27602f9",
+            "sha3_384_hash": "c8152131d11565c08615b267a2b103c2a3e3a4de03c4068a1a477c41af611976e129218f3699d5ebfd37b56e5ff06396",
+            "sha1_hash": "ac0724c724f8d6e2a54b41b86d99aa189e40dc81",
+            "md5_hash": "17492f7b9906b807cffd30e8a0edd993",
+            "first_seen": "2022-05-25 12:44:48",
+            "last_seen": null,
+            "file_name": "bnuethogt.bin",
+            "file_size": 550424,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "KdssSupport",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "46111b1241c22aa3ede6b4176531c30a",
+            "tlsh": "T10AC4022076E089B2D46D423688A7EF4A576BAE314F6645C7FBDC038B0E347C06A7751E",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:QyeWT96x+MN2N4Bou8Bw1bFswwGFGvyLOE8uQnUK5bA:QyeAEwN4BuYFswwsGz1uFCc",
+            "magika": null,
+            "dhash_icon": "72f16979787a726c",
+            "trid": [
+                "48.8% (.EXE) Win32 Executable MS Visual C++ (generic) (31206\/45\/13)",
+                "16.4% (.EXE) Win64 Executable (generic) (10523\/12\/4)",
+                "10.2% (.DLL) Win32 Dynamic Link Library (generic) (6578\/25\/2)",
+                "7.8% (.EXE) Win16 NE executable (generic) (5038\/12\/1)",
+                "7.0% (.EXE) Win32 Executable (generic) (4505\/5\/1)"
+            ],
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "711",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "268d8d0773f374ca2115ea390f21c9f8b35b3f26b6a5785597260ff6b7ec8f8e",
+            "sha3_384_hash": "e1b644a79c4586b546bbaa2cb23172d4d6cec59a97ed98e45e218ea8d4c92338e89a4960ef3e3f74dbfc552c6278a62c",
+            "sha1_hash": "dc19c2df6578eaa95d4a14d0b42f928f538ba361",
+            "md5_hash": "43e2e247ace410b482bbf0efead59e4a",
+            "first_seen": "2022-03-23 14:10:42",
+            "last_seen": null,
+            "file_name": "VirusShare_ecbd64859cfcb61c2b1e04badeaa1902.zip",
+            "file_size": 564908,
+            "file_type_mime": "application\/zip",
+            "file_type": "zip",
+            "reporter": "pgiavaroto",
+            "anonymous": 0,
+            "signature": "RedLineStealer",
+            "imphash": null,
+            "tlsh": "T1AEC423237D1B2597D7F8C67C29A064DCC9C86D77C884D9B46FB3843DCE261488B83AA4",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:2xA7Sqt4vek1qeHSuGUSq5NmzcMkYO1QedT5\/\/idpnSnHO3BQKfJytD:2xAyr1bHjxSq5NAwbd1HidpFRQKfJc",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "RedLineStealer",
+                "TrickBot",
+                "zip"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.GenericKD.39327836.9058.2893.UNOFFICIAL"
+                ],
+                "downloads": "696",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "4ceded881995aa09ac269002c4312560ac38576aa82d95dc85d28a1a2b76bbef",
+            "sha3_384_hash": "c6704ee613a28cab3422c8a1ea0810d81ee4eda0df4c2a6cd8c9af41d3f9008f6e266c21f0bd5a1837e0d2937376b832",
+            "sha1_hash": "9f79ec5e7845bd33a58124fd3d10637a20630bb5",
+            "md5_hash": "54a315b26c66694821fb2091ef865f7f",
+            "first_seen": "2022-03-23 09:13:37",
+            "last_seen": "2022-03-25 07:07:14",
+            "file_name": "SecuriteInfo.com.Variant.Jaik.54039.20849.2721",
+            "file_size": 675872,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "SecuriteInfoCom",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "52d03df79b59449977af2d99ffc5958c",
+            "tlsh": "T1C9E422C11B0D4352EAA798FC24BAEA072B35966E7C51C677330AB213EF35AB06D4161D",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:nBxT3SKVIC9HdFEtttJl3Mob+60MCV94D0cIegdu1oeK\/lGRgOUqmq9kR6lhKXhh:BxT3ZVB9HdFQPl3M06MCV9k0DegduieE",
+            "magika": null,
+            "dhash_icon": "f0f8e8ccd0e4e4f0",
+            "trid": null,
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "PUA.Win.Packer.Asprotect-3",
+                    "SecuriteInfo.com.Variant.Jaik.54039.20849.2721.UNOFFICIAL"
+                ],
+                "downloads": "185",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "236f4e149402cba69141e6055a113a68f2bd86539365210afb9861f4e2d3ad5f",
+            "sha3_384_hash": "8bfe50bdbc0e728854537a7cb921898c5519774a486c96b146a60d4e15feec7df1e83c23482c7a29637b24556c9d5e8e",
+            "sha1_hash": "7cb195e05a78a39cacb0c0d4d4fa23e4c3366785",
+            "md5_hash": "e05d85acc62b2795bfb94a681e64e20f",
+            "first_seen": "2022-03-21 03:04:08",
+            "last_seen": null,
+            "file_name": "sample2.exe",
+            "file_size": 207360,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "NolindRaymond",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "cc031e3bfe0d9f81b846819826c1b0a4",
+            "tlsh": "T1D814021AEFBD04A7F045A57BA02B0A4D887B790247DE2863566B2CFA60713ECC0FD557",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:2LMNe5kFT\/RK1WoJg4ouLl2pFUBm5iKsTFxcW3Qt07kjnnnnM:2LMMktpUWoJg4ouLsFUICcYQmkjnnnnM",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Dropper.TrickBot-7071016-0",
+                    "Win.Dropper.TrickBot-7071033-1"
+                ],
+                "downloads": "832",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "74e715ab7d6fc63775301ab87d959bcbc0af17ce3fe4eb36547392082935a77f",
+            "sha3_384_hash": "ae6c2e652b8cde8a0005381ddca64a1279309838fb28a53ba59814f0e84c892b67f3f1cbaa9e0704c9710f208b37c48e",
+            "sha1_hash": "421ee7f7b24ca6868abd8c7434a6260929f5b94a",
+            "md5_hash": "920bd9567bb3fcd1f8cfa26464aedcf2",
+            "first_seen": "2022-03-14 17:39:30",
+            "last_seen": null,
+            "file_name": "74e715ab7d6fc63775301ab87d959bcbc0af17ce3fe4eb36547392082935a77f",
+            "file_size": 339014,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": "TrickBot",
+            "imphash": "acc7cb5c088e5e812428757b6de0ef91",
+            "tlsh": "T1BC747C3772D124EBD2B6A73B8B337744A337F8655AF69B8B123445564E732838D28E10",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:8cYHkpby5TL02YqasYicwzY0Z0SHLuAY5Jpw0D4t:8cYHkdyDlhpYo0gLPcJ9G",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Variant.Bulz.312399.22471.18922.UNOFFICIAL"
+                ],
+                "downloads": "281",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "bf374475be396528cdfd21a3eac292bb420e398ba9ee9ac86100f0deda916d0e",
+            "sha3_384_hash": "676c8853fb886d2c3b0fa4bffa1b35ef9cc3b619881d2ce2604aa0c80cd97a10c4b36114b7edf70dcc086a9b3e3e95bd",
+            "sha1_hash": "20c1b26ddd2ae336f811bf658fbbe24c011b6393",
+            "md5_hash": "958c82aca0066454c7a8062c5b93c348",
+            "first_seen": "2022-03-14 09:04:03",
+            "last_seen": "2022-03-14 11:23:38",
+            "file_name": "Client_documents_access_5506-2425.xlsm",
+            "file_size": 164251,
+            "file_type_mime": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "file_type": "xlsm",
+            "reporter": "adrian__luca",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T1D6F39D079C248A12F5688BB9FE134D681B6D1A5DB4D27AFF10632EDF7B602265D8D03C",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "3072:UDegPM4xKT72cL5RWU\/S\/\/\/\/\/\/\/\/\/\/25QMUMWhTHHHHHHHHHHHHHHHJnNCaWLgl+:tmMnT72C5RWES\/\/\/\/\/\/\/\/\/\/2O1ZHHHHC",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "TrickBot",
+                "xlsm"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "TwinWave.EvilDoc.DOCXSTRGOOD.XMLENTITY.HTTP",
+                    "TwinWave.EvilDoc.EmotetEsqXL4EarlyHours.20211126.UNOFFICIAL",
+                    "TwinWave.EvilDoc.EnjoyTheSilence.20210716.UNOFFICIAL",
+                    "TwinWave.EvilDoc.EnjoyTheSilence.M2.20210317.UNOFFICIAL",
+                    "TwinWave.EvilDoc.SilentInvasion.20210310.UNOFFICIAL",
+                    "TwinWave.EvilDoc.XL4BBazarLiquidSwords.20211102.UNOFFICIAL",
+                    "TwinWave.EvilDoc.XL4DataopItWasGoodLivingWithYou.20211109.UNOFFICIAL"
+                ],
+                "downloads": "768",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "9b60ef3f360061599935dcbcf4aa96f13b4121f7ad88d5b8cea0cecabc2281a6",
+            "sha3_384_hash": "b2a8d5f88341d0d841d8eb7e1925aefc20d90f4e23b724481618bb53793b61017a56fd65cad8156be258b30fad76ab13",
+            "sha1_hash": "fce99108000defd3fe02403e42fe30dfe71d7cb9",
+            "md5_hash": "6ca672aef71cf09e1e75adac1ce93cd0",
+            "first_seen": "2022-02-10 21:37:26",
+            "last_seen": null,
+            "file_name": "drntfn_Payment_Invoice.iso",
+            "file_size": 616448,
+            "file_type_mime": "application\/x-iso9660-image",
+            "file_type": "iso",
+            "reporter": "TeamDreier",
+            "anonymous": 0,
+            "signature": "N-W0rm",
+            "imphash": null,
+            "tlsh": "T1C9D46434E8A5D5DBCCEED6B55B027AE12142B75B3CF9526D7F08EB0A25329852D03388",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "384:IjpcWSs3ZY95LqtQ9sNYxhr+qRbnM\/MEMIM9MUMVu5:IjpcWSs3q95OtQ9sNYxhr+qRf",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "iso",
+                "N-W0rm",
+                "nworm",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.Siggen16.42919.5247.12086.UNOFFICIAL"
+                ],
+                "downloads": "909",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "fcde8f225a14fe70009f32c4acfba0407b5fd6b0da5c2f65778434359962e5c1",
+            "sha3_384_hash": "df687c25df1e6c99177f9422b8c921f25bd24b3520555687fc42c0bd44afdfcfb5dfcb13b4c1d6c7e9624331a1685a1c",
+            "sha1_hash": "c1a72d736eb870684a190bad60d1da7d1292c37b",
+            "md5_hash": "218c5b56132ee73c7a5ad2e5c96c64d4",
+            "first_seen": "2021-12-31 09:34:43",
+            "last_seen": null,
+            "file_name": "218c5b56132ee73c7a5ad2e5c96c64d4.exe",
+            "file_size": 422912,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "297ed3de0a49d4831344ce5a84729097",
+            "tlsh": "T1FD94F120B3E5C071D18721718A62CBB24FBA7C722591BD8F6FD656794F38A90972831F",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:YFn61kciCuR6b15sZwkst8K5YHJHJ4wX4wp16SiVyaE6Clb4p:YF61k9CuRoaNK5Ypp4wo8OVlE7R4p",
+            "magika": null,
+            "dhash_icon": "e4d0d0f8e4e8d804",
+            "trid": null,
+            "tags": [
+                "exe",
+                "top166",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Win.Packed.Generickdz-9929038-0"
+                ],
+                "downloads": "1222",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "1a6bef8525a2b7eded1ea8c92e65cea20a08dc2fff175e37886c7f46846bcb68",
+            "sha3_384_hash": "5e52701ea01aec1f13be846809d29634449a2cd6b83f9aedcb683030690764eecb7ba10e7dabe37cdb50e8d49f3211ab",
+            "sha1_hash": "421b355c7b3311961359bea6e886a316e410bbf8",
+            "md5_hash": "da42b3f16999890ffa59a2aa10a334e5",
+            "first_seen": "2021-12-30 07:39:42",
+            "last_seen": null,
+            "file_name": "da42b3f16999890ffa59a2aa10a334e5.exe",
+            "file_size": 422400,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "297ed3de0a49d4831344ce5a84729097",
+            "tlsh": "T1A594F11172D4C031E19721348A76CBB10FBABC7675A2AACF2FD5467A4F34AA1D32471E",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:5F61k9CuRQuCBifx5ABMQ2f6OArPtMZotp:fCuGlQxDni9rV",
+            "magika": null,
+            "dhash_icon": "e4d0d0f8e4e8d804",
+            "trid": null,
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "1116",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "01c69d0acc8734993ba9cbfe9b0da4616bb05041e103afdb487759995b93ee5c",
+            "sha3_384_hash": "a3612c1deff78976343e226fbcde7e7f70a396380ab1f04d6e1da383f0789bff7ba9e569546bcb7d688876ef012f7624",
+            "sha1_hash": "6010fb83b30adfeba34ac6f302c2c8e865cdc705",
+            "md5_hash": "1e19cdc980488fb82c9245fde3ba28f8",
+            "first_seen": "2021-12-29 12:46:45",
+            "last_seen": null,
+            "file_name": "1e19cdc980488fb82c9245fde3ba28f8.exe",
+            "file_size": 422912,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "297ed3de0a49d4831344ce5a84729097",
+            "tlsh": "T15C94F120B3E5C071D18721718A62CBB24FBA7C722591BD8F6FD656794F38A90972831F",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:YFn61kciCuRBb15sZwkst8K5YHJHJ4wX4wp16SiVyaE6Clb4p:YF61k9CuRhaNK5Ypp4wo8OVlE7R4p",
+            "magika": null,
+            "dhash_icon": "e4d0d0f8e4e8d804",
+            "trid": null,
+            "tags": [
+                "exe",
+                "top166",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "980",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "5c032f85c0a9a4a551f6c0057ecc78aec6b625df77fcbf6e76c685e362613a92",
+            "sha3_384_hash": "53576688e522d84b6e976c933eab2d7eb74a0930666d40aa07e43e60c8901358e1cd87dfc5960c9d28ef0795ba00a05b",
+            "sha1_hash": "0cb109a1a37622d8147d11b1b5ffbe858388707b",
+            "md5_hash": "e9d4ef1a8d0371d5760cd8a815cf1acd",
+            "first_seen": "2021-12-29 01:36:34",
+            "last_seen": null,
+            "file_name": "SecuriteInfo.com.W32.AIDetect.malware1.29332.22610",
+            "file_size": 422400,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "SecuriteInfoCom",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "297ed3de0a49d4831344ce5a84729097",
+            "tlsh": "T18C94F11172D4C031E19721348A76CBB10FBABC7675A2AACF2FD5067A4F34AA1D32471E",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:5F61k9CuREuCBifx5ABMQ2f6OArPtMZotp:fCuOlQxDni9rV",
+            "magika": null,
+            "dhash_icon": "e4d0d0f8e4e8d804",
+            "trid": null,
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.W32.AIDetect.malware1.29332.22610.UNOFFICIAL"
+                ],
+                "downloads": "913",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "d9ef2723a2d54f8774224b15ad9324598e2213597cf882292af713223b097294",
+            "sha3_384_hash": "5a1a255ed0fb5e476a0954cf0817d24b1eb816ee8684936993f8c7e2298adb1b3d120e78904c2ac01b7e76535cd1136a",
+            "sha1_hash": "a47aa744bdcf3523b8957d57a620cc5a48ab2f16",
+            "md5_hash": "e6211b1c55e1f978dfef54d9916ece48",
+            "first_seen": "2021-12-28 21:54:13",
+            "last_seen": null,
+            "file_name": "e6211b1c55e1f978dfef54d9916ece48",
+            "file_size": 422400,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "zbetcheckin",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "297ed3de0a49d4831344ce5a84729097",
+            "tlsh": "T1F294F11172D4C031E19721348A76CBB10FBABC7675A2AACF2FD5467A4F34AA1D32471E",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:5F61k9CuRbuCBifx5ABMQ2f6OArPtMZotp:fCuFlQxDni9rV",
+            "magika": null,
+            "dhash_icon": "e4d0d0f8e4e8d804",
+            "trid": null,
+            "tags": [
+                "32",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "838",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "d3b6ecc403a04c8df0c501d2cd369c01635620aa5eb2da01698d0d319dd1b781",
+            "sha3_384_hash": "bc1ff1d55ba415a4a1488360ce10abf22b33e5d1723c2de0576ed0df57c3728d2beffad53f809d31c788b9f3878001d3",
+            "sha1_hash": "e2f5feab5a45d5607dfe6c22b1db662c56e047db",
+            "md5_hash": "e231da087aae05ef16c8dae0030b6490",
+            "first_seen": "2021-12-24 08:09:26",
+            "last_seen": null,
+            "file_name": "e231da087aae05ef16c8dae0030b6490.dll",
+            "file_size": 333312,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "140793172cc35d6ed3ad0ac6b0e6b01c",
+            "tlsh": "T146640212B7B2C039C5A3623054B5D7B1297A3D635AB9418B7F916B7DCE303E09A38367",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:ejBZkkmxeyHT9Dy15VpSC21QhHGRnDDUNiFJ557aGb:UBZkkmxFBDyHLJ212GRDDUiF5P",
+            "magika": null,
+            "dhash_icon": "e4d0d0f8e4e8d804",
+            "trid": null,
+            "tags": [
+                "dll",
+                "rob144",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "826",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "4c08a4614de36445ea712490ef4699a1414db5449936b8ca2e801e1e8fa12151",
+            "sha3_384_hash": "5adcdb7ca8a7e32f41d9c22c39adb1fa2cd8af8777bd7c5e2eeb1842f57c3ae709a8000f3909bfc241d39afd5db4a529",
+            "sha1_hash": "3f5eb9641acca56147d97a5d585acaeec255606c",
+            "md5_hash": "f9aab568fb0b6d14c2e7167b437b952e",
+            "first_seen": "2021-12-23 17:37:02",
+            "last_seen": "2021-12-23 20:03:33",
+            "file_name": "f9aab568fb0b6d14c2e7167b437b952e",
+            "file_size": 610304,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "zbetcheckin",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "3396fd32a73a107b1ba2648267266e5c",
+            "tlsh": "T177D4CF3DF2FC803BD57B1B7DB9C7826962E87F118BA0A24F7B807A9D59B08859D10315",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:+cp5nzFSbTEunWzAE5nUmZSVv\/7nSDnlvlrbd9+hmaCXkZ1d4JLiYfkpV\/UQDKvS:x8TEWstKmZSVHGvlrbd9ImdXEPafkR",
+            "magika": null,
+            "dhash_icon": "32f0f9e8f0cce0e8",
+            "trid": null,
+            "tags": [
+                "32",
+                "dll",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.W32.AIDetect.malware2.31880.20960.UNOFFICIAL"
+                ],
+                "downloads": "792",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "f5a0b5b7892adbca1bce723fd952544006cfa8f05a9888f77544416287e99a8b",
+            "sha3_384_hash": "6b389f9db66c670a596637d1ec5c8ec9270692acd1636196c0aa093c4ed3286b667c83df8848e15a39bef3248fe23483",
+            "sha1_hash": "68c09cc3098e86eecf1d5fca31eb82f5f127dc94",
+            "md5_hash": "f9cfcd12a4786841168277361b653fcd",
+            "first_seen": "2021-12-23 15:50:19",
+            "last_seen": "2021-12-23 18:19:08",
+            "file_name": "kgheowd.dll",
+            "file_size": 320512,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "ffforward",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "140793172cc35d6ed3ad0ac6b0e6b01c",
+            "tlsh": "T1B3640221F7A2D470C4ABA53458BADEB209B9B82317B44087BF94273D8F71780BD7435A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:gHRAXqUeeRrYDzYgnu9EUex\/+vbGset1ZYZJ4G28GMioE+aqb:6RAx7YDzfuMZ+M2zOxl4",
+            "magika": null,
+            "dhash_icon": "e4d0d0f8e4e8d804",
+            "trid": null,
+            "tags": [
+                "dll",
+                "rob144",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.W32.AIDetect.malware2.5823.25070.UNOFFICIAL"
+                ],
+                "downloads": "807",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "05f87369f99f8c94f96d54a866723feb06dd721c478213f2dae2e9f4a1a14e3c",
+            "sha3_384_hash": "3b1f6d0c9a1b8e622f44d34a66664e34cae227628983ef4aeff64d12aab2fe79eb5610135c5ba07e9c237276e83e8aee",
+            "sha1_hash": "c3124c9ed312aa87f0bc203ea14993ecc7c5f625",
+            "md5_hash": "de7e76e06acdb91418e616204a91c955",
+            "first_seen": "2021-12-23 15:47:47",
+            "last_seen": "2021-12-23 18:19:14",
+            "file_name": "Documents_.xlsm",
+            "file_size": 211925,
+            "file_type_mime": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "file_type": "xlsm",
+            "reporter": "ffforward",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T15424128707BFF08ECD971078A6361E6666346022D6D750B52518E0AA0D9DB93AC1CFEF",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:FQgrM2HhKKQTv64c0QPQkZoOcE+5hRhYV+gTk:FvrRHITvW0QP0Pvzok",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "rob144",
+                "TrickBot",
+                "xlsm"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "TwinWave.EvilDoc.COSpaceOddity.20200319.UNOFFICIAL",
+                    "TwinWave.EvilDoc.CROMiscreantNeuralLinkTerra.20210721.UNOFFICIAL",
+                    "TwinWave.EvilDoc.DetonatorFRMActionAndAction.20210308.UNOFFICIAL",
+                    "TwinWave.EvilDoc.OXML.EmotetDownWithOPP.20210123.UNOFFICIAL",
+                    "TwinWave.EvilDoc.PDATARootDown.20210827.UNOFFICIAL"
+                ],
+                "downloads": "880",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "7473d0694daf4bd5e4a1197d52923233c5d2ed3f23092eb31e88d98ed4b310e5",
+            "sha3_384_hash": "b5c12616b39f5ba128c8509cb4186d1dd28e3925def3d82ce425fa65e37a3596f05aea2aff7d92577fcb215dd31136ed",
+            "sha1_hash": "3fff954fb6dc4d620376618f91117a32ef14a244",
+            "md5_hash": "f251d246ad0d63da7e12cd866afac0a2",
+            "first_seen": "2021-12-23 15:47:22",
+            "last_seen": "2021-12-23 18:19:15",
+            "file_name": "Documents_Business.xlsm",
+            "file_size": 95589,
+            "file_type_mime": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "file_type": "xlsm",
+            "reporter": "ffforward",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T1AC93F11894716C1ACEBC053DB560244EDAB56EC3541F856DD718BE0F2280CAE3F9B6AF",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "1536:Y\/pJ2AGpzVfN04AXIhx5GVIsI66UPl66GueL\/XYh17mkkQ1j:Y\/aXm4AXIx27ZPM6GueLPYD7mkZh",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "rob144",
+                "TrickBot",
+                "xlsm"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "TwinWave.EvilDoc.COSpaceOddity.20200319.UNOFFICIAL",
+                    "TwinWave.EvilDoc.CROMiscreantNeuralLinkTerra.20210721.UNOFFICIAL",
+                    "TwinWave.EvilDoc.DetonatorFRMActionAndAction.20210308.UNOFFICIAL",
+                    "TwinWave.EvilDoc.OXML.EmotetDownWithOPP.20210123.UNOFFICIAL",
+                    "TwinWave.EvilDoc.PDATARootDown.20210827.UNOFFICIAL"
+                ],
+                "downloads": "833",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "4936cf3cf44a80966e33629ea7656993dfb3e9fc371d1ce24be66d84fb5085d8",
+            "sha3_384_hash": "f7e117331cd3b3552d2d800ae7a29803c561add1b985949e93c1d1fcbb994b9c8b87af051fd5780a24cc6aae10441936",
+            "sha1_hash": "2a8db917581483bf6a9cbae804a3272a940b9401",
+            "md5_hash": "ce71296880b57804f44a6bb4c46a151f",
+            "first_seen": "2021-12-22 16:41:28",
+            "last_seen": null,
+            "file_name": "4936cf3cf44a80966e33629ea7656993dfb3e9fc371d1ce24be66d84fb5085d8",
+            "file_size": 450560,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": "TrickBot",
+            "imphash": "e768cc53caa0b68006b0ded6604c348d",
+            "tlsh": "T191A4D00272E0C035C2EF133D19269B1967BBFD20DB7586CB2751BE9EAE346D18939352",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:v5+iRFTkRhO9SERtZtfherliYSuTNpBRaj4gzaxCdKJjWJFWMaDTX3H:JFTkgtZTm4EBpL0zacMScx7",
+            "magika": null,
+            "dhash_icon": "71b119dcce576333",
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.Agent.FQNG.10264.29910.UNOFFICIAL",
+                    "Win.Malware.Trickbot-9916944-0"
+                ],
+                "downloads": "756",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "83b0955b673c9ba36865e3a4a7c099e16d25c1f757b0783dee28c785e14fff7d",
+            "sha3_384_hash": "d65c23d80c395009f4048284529d2de2b849cd6bb2b0b977c65423bcbbbf23dd680557574d02b972063838cd9b9f1210",
+            "sha1_hash": "725d64237d774663ce69152014169226f2957468",
+            "md5_hash": "bf8ee2797825c0f73a68852fc4976758",
+            "first_seen": "2021-12-20 05:38:50",
+            "last_seen": null,
+            "file_name": "bf8ee2797825c0f73a68852fc4976758",
+            "file_size": 349184,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "zbetcheckin",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "0026c8a1c807441cd486cacd7ab1065f",
+            "tlsh": "T18974AE10A7A0D039F1B716F40A7993ACB52F7EE16B2591CB62C42BEA66357D0DC3131B",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:wBcNLJSTXmlVizyMp46P+v0iMDLj9a1xNwAF10mVo:weNL\/VDMy6P+siKFaPNwAjP",
+            "magika": null,
+            "dhash_icon": "2dac1378399b9b91",
+            "trid": null,
+            "tags": [
+                "32",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.Inject4.22508.18264.29516.UNOFFICIAL"
+                ],
+                "downloads": "175",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "2586d4d0fb6798a84320492847b839815b787970c9f279acf1d1436780c40a3a",
+            "sha3_384_hash": "1e602ace97523ab569951d2b4793b5a3210703ef075403b47e2ea8e34bee27e428c04cbca1e898aaac4b65bad54fe28f",
+            "sha1_hash": "9523c81f56912db91cb1c477163ef5f54122dbf5",
+            "md5_hash": "824df92374ab73f4975dc5d4be868a15",
+            "first_seen": "2021-12-16 18:54:14",
+            "last_seen": "2021-12-16 20:49:56",
+            "file_name": "2586d4d0fb6798a84320492847b839815b787970c9f279acf1d1436780c40a3a",
+            "file_size": 356352,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": "TrickBot",
+            "imphash": "1e14b9e859467fd4c1b3bb619c1a4550",
+            "tlsh": "T1B574F1117390D432C4661930547ACEB11A3F7CE6F6648AAB37C43A6E3EF17E119363A6",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:+7a7bh89lgMMMMMgMoJMMMMMMdMMMMMMMMMYI1MCQ4UCLgW6uGpofipdZT4kfmA5:+7a+9SJMMMMMMdMMMMMMMMMYI1tbUCLx",
+            "magika": null,
+            "dhash_icon": "74f4c6c4dcd4c4c4",
+            "trid": null,
+            "tags": [
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.KillProc2.17137.22885.6752.UNOFFICIAL"
+                ],
+                "downloads": "916",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "caf56d168c770350da83ad489809007df7813c3bef213c35f1c6e1f4bf3142de",
+            "sha3_384_hash": "956b3ba4af0a36f1c881740f3860f2ed249faad916b3c2b52819dc30646488d011a10af27e057811753d25ff0c674b95",
+            "sha1_hash": "01fdb7c669d6c2e8f18393bce2fda086367390d2",
+            "md5_hash": "51ddc2c6f1de2401ce987d589dad88c8",
+            "first_seen": "2021-12-16 07:57:49",
+            "last_seen": null,
+            "file_name": "51ddc2c6f1de2401ce987d589dad88c8.exe",
+            "file_size": 356352,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "1e14b9e859467fd4c1b3bb619c1a4550",
+            "tlsh": "T13674F1117390D432C4661930547ACEB11A3F7CE6F6648AAB37C43A6E2EF17E119363A6",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:+7a7bO89lgMMMMMgMoJMMMMMMdMMMMMMMMMYI1MCQ4UCLgW6uGpofipdZT4kfmA5:+7an9SJMMMMMMdMMMMMMMMMYI1tbUCLx",
+            "magika": null,
+            "dhash_icon": "74f4c6c4dcd4c4c4",
+            "trid": null,
+            "tags": [
+                "exe",
+                "top161",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "820",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "27298bd1cc024cf7807b22de38b4bf6cc24109dae62a16583e50f7fe65c94590",
+            "sha3_384_hash": "cee29081d4a6246153e7e350e802114e452aba399b8c157a2061ec43fa46d9e2d89fb0db0007a48e3f27c76cd45c348a",
+            "sha1_hash": "886f47c5af62fd0ae5dbfddc68333ac9a59ab0bd",
+            "md5_hash": "5a9bd68976925253a93105cf5f27d8e3",
+            "first_seen": "2021-12-16 00:11:36",
+            "last_seen": null,
+            "file_name": "5a9bd68976925253a93105cf5f27d8e3",
+            "file_size": 356352,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "exe",
+            "reporter": "zbetcheckin",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "1e14b9e859467fd4c1b3bb619c1a4550",
+            "tlsh": "T15274F1117390D432C4661930547ACEB11A3F7CE6F6648AAB37C43A6E3EF17E119363A6",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:+7a7bA89lgMMMMMgMoJMMMMMMdMMMMMMMMMYI1MCQ4UCLgW6uGpofipdZT4kfmA5:+7ah9SJMMMMMMdMMMMMMMMMYI1tbUCLx",
+            "magika": null,
+            "dhash_icon": "74f4c6c4dcd4c4c4",
+            "trid": null,
+            "tags": [
+                "32",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "863",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "46bd1136b087c10bb4bf2b301c1c6820d9c4cebd46adefc9a1bee1a09e8237b8",
+            "sha3_384_hash": "eedfd5bc5f43dc3cce43adfabe95ae5bcfec50f6759e38976b67c431bc721b568d5f546483fde5918606eb8a2f5e8aa9",
+            "sha1_hash": "452a9f4f9d9c5bb733630ba56ab3d67310f0ea1f",
+            "md5_hash": "8637b5bad484e456c6232d3918cdd6ab",
+            "first_seen": "2021-12-11 13:49:29",
+            "last_seen": null,
+            "file_name": "8637b5bad484e456c6232d3918cdd6ab.dll",
+            "file_size": 419840,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "979c24149674ffe2c511255552b86b69",
+            "tlsh": "T10394DF2021D0C072D167247D8676C6B24B3B7C65ABA1EACF7FC52A795F343D1C62839A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:geRcUQM8GQIkuMp0SI6f975HyHxiwBNM9GyMGuhraQj8TdIThO5qXS:hRcUQM8GfkuMp0KPyR\/kjfttTQhO",
+            "magika": null,
+            "dhash_icon": "c0b1a0b2b4b434f4",
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.KillProc2.17101.2367.6238.UNOFFICIAL"
+                ],
+                "downloads": "813",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "8c91542389027eed2415f9280f3537371001bd23570b1b198e60531141bf2623",
+            "sha3_384_hash": "04327ac119d932de0bcb1af1ac5a7ea12f1c09014fcb0f6b67265830662533ab589a7fb0c264a669e65f0231e41b7755",
+            "sha1_hash": "27acca4cb99033c5fe6f186b9f9315acf1199cc9",
+            "md5_hash": "5082c6a494e17befca8cf5bbc1db6274",
+            "first_seen": "2021-12-11 06:46:55",
+            "last_seen": null,
+            "file_name": "5082c6a494e17befca8cf5bbc1db6274.dll",
+            "file_size": 450560,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "e768cc53caa0b68006b0ded6604c348d",
+            "tlsh": "T16DA4D00272E0C035C2EF133D19269B1967BBFD20DB7586CB2751BE9EAE346D18939352",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:v5+iRFTkRhO9SEvtZtfherliYSuTNpBRaj4gzaxCdKJjWJFWMaDTX3H:JFTkmtZTm4EBpL0zacMScx7",
+            "magika": null,
+            "dhash_icon": "71b119dcce576333",
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.Agent.FQNG.10264.29910.UNOFFICIAL"
+                ],
+                "downloads": "767",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "100c03839669700c5fe5a8758ae8e059b3829ce4fa62067f916df0ee7d81747f",
+            "sha3_384_hash": "c8253668b519445129ac92ae532fbc25be3f24f1c72cd6c94fb50366704c49fd890a870f23f2fe7ea49f3a2f24bfa0ea",
+            "sha1_hash": "2f4140b76341ca6f91a79b79d1774c3d1b4ac665",
+            "md5_hash": "b442ac1173ae15c19aa184587de2c44a",
+            "first_seen": "2021-12-11 06:46:54",
+            "last_seen": null,
+            "file_name": "b442ac1173ae15c19aa184587de2c44a.dll",
+            "file_size": 419840,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "979c24149674ffe2c511255552b86b69",
+            "tlsh": "T13B94DF2021D0C072D167247C8676C6B64B3B7C65ABA1E9CF7FC52A795F343D2C62839A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:geRcUQM8GQIkuMp0SC6f975HyHxiwBNM9GyMGuhraQj8TdIThO5qXS:hRcUQM8GfkuMp0IPyR\/kjfttTQhO",
+            "magika": null,
+            "dhash_icon": "c0b1a0b2b4b434f4",
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.KillProc2.17101.2367.6238.UNOFFICIAL"
+                ],
+                "downloads": "766",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "d8c7a137d9a27325bf49f1b9a0476eb248fc270c4110238b5d6e0dd755283253",
+            "sha3_384_hash": "71bc581331982e5737f7269c601d2fce86e2d419ba1baec82fd8cf4658cd5cbf548d7d9af3d27a455af6ae7cd3d2c1c8",
+            "sha1_hash": "593435d283fc4ef081cdcbc76aeb5af88e214d6b",
+            "md5_hash": "6cbc099615b6ffbd2047ff3078834176",
+            "first_seen": "2021-12-10 13:49:57",
+            "last_seen": null,
+            "file_name": "6cbc099615b6ffbd2047ff3078834176",
+            "file_size": 2023424,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "zbetcheckin",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "9a242c3f2a6a5326096a83352fc74cfc",
+            "tlsh": "T112955A85AA73DA4BCFD95820E333D63948BA21262D1A03B385D9E59C5C3FDD2CAD7131",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:K+It8evAH5v0pakZ1p\/bQkojcsCMSGzrbpNxBZY+yPbZGOV1Y2sIlBFYIc7AlWhi:5ys",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "32",
+                "dll",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "844",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "193ed2a28bfc15b141dc76ba5861397991673ce6a33e8221783d312a41ab1253",
+            "sha3_384_hash": "36f33f71eb98d88681b11411e059bdbed62e45fe2be02d276da14d713f56b66b4932bf36af16631a897fde560c25b1bc",
+            "sha1_hash": "5980aaa4d9a431b93cc830e1e1e562671d3ac23b",
+            "md5_hash": "5386bd033e077a1cdde00d2618e764f7",
+            "first_seen": "2021-12-10 13:19:06",
+            "last_seen": "2021-12-10 14:46:24",
+            "file_name": "193ed2a28bfc15b141dc76ba5861397991673ce6a33e8221783d312a41ab1253.dll",
+            "file_size": 1771520,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "anonymous",
+            "anonymous": 1,
+            "signature": "TrickBot",
+            "imphash": "42dd9e2a645d4de89a554a12e88f192d",
+            "tlsh": "T1FA85335277BF50417956D9EC88D80ED7AD0FF3692A021E3747625C1072A5BFABEC802E",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "1536:tAv0EU2r1DNDK28Zjv41cpBSf3VuS6eEhYX9\/uBtRkD6ym8iX4a2A:GU2rvu28SmjmuS6eEhYXJu7RkD6A+1",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Variant.Zusy.409628.30106.26597.UNOFFICIAL"
+                ],
+                "downloads": "811",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "758cb2d6a4c0ea0e21b0db00bd427f41d3d679883701e7865809e20a4ca89f7a",
+            "sha3_384_hash": "4116b852798b1d2a1f9cf0bab41f7b6c7232780f4e00c823ec24104144db483bc525329c006bc5dcf78877b8f68de417",
+            "sha1_hash": "b6cda924b9641b40305ce100acbbf342dd479c5d",
+            "md5_hash": "d9fa69ac4fcc720b34a7fed3ed9d1586",
+            "first_seen": "2021-12-10 10:49:28",
+            "last_seen": "2021-12-10 12:36:19",
+            "file_name": "1.dot",
+            "file_size": 810116,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "pr0xylife",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "c24b5af71e321f46094351d9a2bf63c3",
+            "tlsh": "T1EE05F120B2A0C431C45B2935927ADA715A3F3D32EAF58547BBA837385F722C09B7D365",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:InhdroYY4VgbjWuEs3OLX2nhdroYY4VgbjWuEs3OLXx:m7YwYhQXw7YwYhQXx",
+            "magika": null,
+            "dhash_icon": "c0b1a0b2b4b434f4",
+            "trid": null,
+            "tags": [
+                "dll",
+                "rob142",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Gen.Variant.Fragtor.48175.6665.27634.UNOFFICIAL"
+                ],
+                "downloads": "759",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "84240266200f3b4252535bfcf7f1ddee2a4fd7fdbb94f61aa627f2e8f2c9d6d3",
+            "sha3_384_hash": "9facab2f1e51898f42edde426629cc5a9f3f4bb56f520a62db400de3d1249489bd525a194112a51c7543fd041f730543",
+            "sha1_hash": "15fd801e764e7e02f90676a4fc1a18361be49aa9",
+            "md5_hash": "509b89137c78068be70638cbcc5ef8f5",
+            "first_seen": "2021-12-10 10:48:14",
+            "last_seen": "2021-12-10 12:36:22",
+            "file_name": "2.doc",
+            "file_size": 1970176,
+            "file_type_mime": "application\/msword",
+            "file_type": "doc",
+            "reporter": "pr0xylife",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T1679598F0A072A440FC1E2AA6F185388986C73DEF790FCE460528B57F25BA5D93B9445F",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:nGx3kcb7mT47I+sIm5p\/KD\/Y\/tVzah7D:G5Bx4\/m\/YFIh",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "doc",
+                "rob142",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "Sanesecurity.Malware.25086.MacroHeurGen.Al2.UNOFFICIAL",
+                    "TwinWave.CROJokerAndTheThiefFinalHour.20210420.UNOFFICIAL",
+                    "TwinWave.EvilDoc.BanditosAndTheirHEXYEXEs.UNOFFICIAL",
+                    "TwinWave.EvilDoc.CROMiscreantNeuralLinkExtraTerra.M2.20210721.UNOFFICIAL",
+                    "TwinWave.EvilDoc.CROMiscreantNeuralLinkTerra.20210721.UNOFFICIAL"
+                ],
+                "downloads": "913",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "4b88762a26c962cc6ccb777bfcc10aefeb82ff82db18c707ae308857ca16c267",
+            "sha3_384_hash": "8da9cc3ae04fd7696f4a2632cffa40411e88cba9fb6d25b952223388df1430d6cf67024e55d32223726d663fdb9409aa",
+            "sha1_hash": "ec7973a56b1a2659a781500ef26c68c1dbbf8303",
+            "md5_hash": "057e58e9004e00bf1810d17f14e47c36",
+            "first_seen": "2021-12-09 19:59:41",
+            "last_seen": "2021-12-09 22:21:09",
+            "file_name": "panther.png",
+            "file_size": 2023424,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "malwarelabnet",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "9a242c3f2a6a5326096a83352fc74cfc",
+            "tlsh": "T1A1955A85AA73DA4BCFD95820E333D63948BA21262D1A03B385D9E59C5C3FDD2CAD7131",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "12288:K+It8evAH540pakZ1p\/bQkojcsCMSGzrbpNxBZY+yPbZGOV1Y2sIlBFYIc7AlWhi:5ys",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Variant.Zusy.409628.19316.21728.UNOFFICIAL"
+                ],
+                "downloads": "780",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "09487d34e30a980b92503f116d97ce80a8b20cfae702d03dca0e5e4eff79b4bd",
+            "sha3_384_hash": "4e458c413d12cef9620592fd5ac702d2ed0f38ae9ce44fdf114e46efb54c6e653cb7b16cb29bb1a342cf48119c90435d",
+            "sha1_hash": "286f93132c78543529765b2348dc09766c74ebee",
+            "md5_hash": "ee9c0996d2aa9b44755c1c693e21181b",
+            "first_seen": "2021-12-09 19:46:22",
+            "last_seen": null,
+            "file_name": "roben.png",
+            "file_size": 419840,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "malwarelabnet",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "979c24149674ffe2c511255552b86b69",
+            "tlsh": "T1DD94DF2021D0C072D167247C8676C6B64B3B7C65ABA1EACF7FC52A795F343D1C62835A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:geRcUQM8GQIkuMp0SS6f975HyHxiwBNM9GyMGuhraQj8TdIThO5qXS:hRcUQM8GfkuMp0kPyR\/kjfttTQhO",
+            "magika": null,
+            "dhash_icon": "c0b1a0b2b4b434f4",
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.KillProc2.17101.26604.14754.UNOFFICIAL"
+                ],
+                "downloads": "775",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "8c7a8843e4335b2ac428b475a5765ae005a4ed2059db35002ce01c033728ead7",
+            "sha3_384_hash": "9b70d23e2ada8e1b3b01f68212607a82e59962b9c65a02c8d49d3c8da70605074619d961d70009a4a275f5d8836689ce",
+            "sha1_hash": "60b55b2613ec2ed67ce5cb775fb1c179fd2ce174",
+            "md5_hash": "03ac2fdcd05517a0c0376df77fc71965",
+            "first_seen": "2021-12-09 19:42:26",
+            "last_seen": null,
+            "file_name": "triage_dropped_file",
+            "file_size": 419840,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "malwarelabnet",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "979c24149674ffe2c511255552b86b69",
+            "tlsh": "T12794DF2021D0C072D167247C8676C6B64B3B7C65ABA1E9CF7FC52A795F343D2C62839A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:geRcUQM8GQIkuMp0SG6f975HyHxiwBNM9GyMGuhraQj8TdIThO5qXS:hRcUQM8GfkuMp0YPyR\/kjfttTQhO",
+            "magika": null,
+            "dhash_icon": "c0b1a0b2b4b434f4",
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.KillProc2.17101.2367.6238.UNOFFICIAL"
+                ],
+                "downloads": "769",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "a35096dbb8b3f3bb0665ee03a2abf81eea7758872e0448b26d03fd42ac567be6",
+            "sha3_384_hash": "14966acdc1b84380dcbc76d2f19d659297b192152353c2b39d5af50b77147e6140c718e12c51954f5158348b29bd7560",
+            "sha1_hash": "4fc8a8c0370dabffdf017ca315421b42379da01a",
+            "md5_hash": "1cb787ca4f6a72f7eaf22578ff50dd85",
+            "first_seen": "2021-12-09 19:25:11",
+            "last_seen": "2021-12-09 21:17:44",
+            "file_name": "yellowtank.png",
+            "file_size": 2215936,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "malwarelabnet",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "a199290dcbe202d1f0bd9360a8611fc3",
+            "tlsh": "T190A56CCCB79B3AC311719CB74AB125A265061D32D993D8F3A759334B01391BD6FC2E8A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:58bCo3UdtKeqfyytqcAO9bIhwG8H+ktjjrn0oP:kNUdtuGS+Ejr0o",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Variant.Zusy.409625.7888.4920.UNOFFICIAL"
+                ],
+                "downloads": "745",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "d157f21ffa6bfd3ab060cad10d2dd10c49488dbfc07101b55686baa024c84555",
+            "sha3_384_hash": "981b06722b14d3f1b419af13cfa04fa95b6923f952e4d5df494d996bbe39c89a51027e969606880cbd2e80b56376709f",
+            "sha1_hash": "cc433a61f1df54235483ecbc0e4c65edca2b8a39",
+            "md5_hash": "91a5720a4661f25ac7ed3aa680a51ed7",
+            "first_seen": "2021-12-09 17:05:38",
+            "last_seen": null,
+            "file_name": "91a5720a4661f25ac7ed3aa680a51ed7",
+            "file_size": 2057728,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "zbetcheckin",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "ada2df5716cdc204b561f1444d64c9d5",
+            "tlsh": "T1989549276DD2E0021C175CF69EFB56F4760BC84529224CA72B377645E0A6270FA6F38E",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:qpXjcPUqviYVZFiKXJxDPbOoJcfgQwJ2vkeDkCSHVmrOISZKByfjYoxj:qpXjcPl7FzHebpID",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "32",
+                "dll",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Variant.Zusy.409625.3530.30099.UNOFFICIAL"
+                ],
+                "downloads": "730",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "f4e7dadf3fc4520b7b99d41f7bbf7f3bc5ce1fc0c1730a726992537c603c980e",
+            "sha3_384_hash": "ce4e5b768bbbe09462abe9ece3b4b90d29e363e809cf019bc78fd1ea4a95f6bca9735f551e8923b13771ef2b503814ba",
+            "sha1_hash": "5c849ce251739735c30d522676db1cf9352fa8c3",
+            "md5_hash": "aa57fcde9c6aaf91270aefaafc3b4510",
+            "first_seen": "2021-12-09 16:24:19",
+            "last_seen": null,
+            "file_name": "aa57fcde9c6aaf91270aefaafc3b4510",
+            "file_size": 1821184,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "zbetcheckin",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "c131e7ab95b6cc6ff4c2379d5b0fc4ad",
+            "tlsh": "T1C08535F1DBDA8B5FACCC986163020A7A51CA07678D45879AD0BC53FC787D982CC6BC52",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "1536:sjkUHInOKVU9vFhgD6wK1LhsfAWs\/g9UhwtV\/IeQ\/HQljEqt:sjFiDgL+C\/3hwXfuwJt",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "32",
+                "dll",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "742",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "f894a027474fa36723db3644d7dc1715dbfd6db1dd18b1f124cf8abb8709e1f8",
+            "sha3_384_hash": "dec7e84886052d5b01499b1657ee4f0d131d765ed6935453ce623f405a5f4b4d7d7379b90dcaa0c1f5d24c2cd889f5f1",
+            "sha1_hash": "2daff152cecad77f3a1e5e1d43ee07376fccdabe",
+            "md5_hash": "2e92d20d2ad68d9bd5841910c488af6e",
+            "first_seen": "2021-12-09 16:17:36",
+            "last_seen": null,
+            "file_name": "2e92d20d2ad68d9bd5841910c488af6e.dll",
+            "file_size": 1821184,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "c131e7ab95b6cc6ff4c2379d5b0fc4ad",
+            "tlsh": "T1C38535F1DBDA8B5FACCC986163020A7A51CA07678D45879AD0BC53FC787D982CC6BC52",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "1536:sjkUHInOKVU9vFhgD6wK1LhsfAWs\/g9UhwtV\/IeQ\/HQljEqt:sjFiDgL+C\/3hwXfuwJt",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "761",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "8b7aeacc9c43fcc6535f43e1bb351d11074107e9f2cc9fdf29d3e3a6aed5d19d",
+            "sha3_384_hash": "1976fe8e52e1f4709e84ad94c957ac4a4ffa9a3141cef07d5c36df0f89fb5445090aaee2982404567db222494a81d229",
+            "sha1_hash": "eba18a38a3d446e78a89c79c7cf6eced269cee05",
+            "md5_hash": "b23fa3285b95afdda1a59dde1a5e7b0d",
+            "first_seen": "2021-12-09 16:17:25",
+            "last_seen": null,
+            "file_name": "b23fa3285b95afdda1a59dde1a5e7b0d.dll",
+            "file_size": 450560,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "e768cc53caa0b68006b0ded6604c348d",
+            "tlsh": "T1D0A4D00272E0C035C2EF133D19269B1967BBFD20DB7586CB2751BE9EAE346D18939352",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:v5+iRFTkRhO9SErtZtfherliYSuTNpBRaj4gzaxCdKJjWJFWMaDTX3H:JFTkytZTm4EBpL0zacMScx7",
+            "magika": null,
+            "dhash_icon": "71b119dcce576333",
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.Agent.FQNG.10264.29910.UNOFFICIAL"
+                ],
+                "downloads": "766",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "75578e9d4935df53b648e93ee37cbc406d815a3a7748a60cccd0a74978baefd0",
+            "sha3_384_hash": "1c3c8a0679121c029afdaa623c85c4e233637a61beb8db6a217f8a3d8f153a3f592277164855086c74459eef27530153",
+            "sha1_hash": "6e1702946cb436f06cef2dff06de148bbe47bdb5",
+            "md5_hash": "bc4efa601376705459a082186ee97bf0",
+            "first_seen": "2021-12-09 15:51:38",
+            "last_seen": null,
+            "file_name": "bc4efa601376705459a082186ee97bf0.dll",
+            "file_size": 2057728,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "ada2df5716cdc204b561f1444d64c9d5",
+            "tlsh": "T16D9549276DD2E0021C175CF69EFB56F4760BC84529224CA72B377645E0A6270FA6F38E",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:qpXjcPUqviYVZFiKXJxDPbOoJcfgQwJ2vkeDkCSHVmrOISZKByfjYoxj:qpXjcPl7FzHebpID",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "100021",
+                "dll",
+                "rob142",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Variant.Zusy.409625.29862.16361.UNOFFICIAL"
+                ],
+                "downloads": "772",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "00ac480eb8e89d69c6f7ad4b701801d4834aa3d9afbade4f3bb6701be52d5336",
+            "sha3_384_hash": "3a0f7940180b365e86afe01069e0aca45a74c201a381333ea46f96d69cb6dd077199cdba0ffec572a208c6f6af42666d",
+            "sha1_hash": "728641affd87d450fb3596ec61b4e912f4aa91cb",
+            "md5_hash": "3d646a89bba2a562b8a491fe0a4fff75",
+            "first_seen": "2021-12-09 15:51:36",
+            "last_seen": "2021-12-10 09:51:47",
+            "file_name": "9360.xlsm",
+            "file_size": 29785,
+            "file_type_mime": "application\/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "file_type": "xlsm",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": null,
+            "tlsh": "T156D2D01E95A53C19C373983DC24699DDA00E5C622402BE9230E0B34D33B16E727DFAED",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "768:hSTg3sx6feommUxjfC30+kS4QyoY0ckCam:hH3sx6JmXYk4pZcmm",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "100021",
+                "rob142",
+                "TrickBot",
+                "xlsm"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.MSOffice.DdeExec-3.UNOFFICIAL",
+                    "TwinWave.EvilDoc.DOCXRSTRGOOD.MSHTA.210816.UNOFFICIAL",
+                    "TwinWave.EvilDoc.DOCXSTRGOODXL4.HTTP",
+                    "TwinWave.EvilDoc.XLMSumBodyToLove.M2.032421.UNOFFICIAL",
+                    "Xls.Downloader.EmotetExcel122100-9913103-0"
+                ],
+                "downloads": "833",
+                "uploads": "3",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "1e4e1ad5130eb287fdcade1a16b004803a67577d138e3151c53c14c03fe0df44",
+            "sha3_384_hash": "79ce11b2e8654a69e6d6797b1bd2d0f2da704b36ff76d0b1a8b34308b5b6d6f7cecba2c44cfe57a744cb3e6815fb4523",
+            "sha1_hash": "4362d61ded17e2e732a74a2a3f78f018fe3cf47e",
+            "md5_hash": "a56afc71de63613695d894a4632ac249",
+            "first_seen": "2021-12-09 14:03:50",
+            "last_seen": null,
+            "file_name": "Google.dll",
+            "file_size": 2057728,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "pr0xylife",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "ada2df5716cdc204b561f1444d64c9d5",
+            "tlsh": "T1A39549276DD2E0021C175CF69EFB56F4760BC84529224CA72B377645E0A6270FA6F38E",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:qpXjcPUqviYVZFiKXJxDPbOoJcfgQwJ2vkeDkCSHVmrOISZKByfjYoxj:qpXjcPl7FzHebpID",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "dll",
+                "rob142",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Variant.Zusy.409625.29862.16361.UNOFFICIAL"
+                ],
+                "downloads": "769",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "3e0b749221c4c89bf82741c97594f8b27d75a322e8428e694a28e1d3e654a2c9",
+            "sha3_384_hash": "907eb4769cdde20958d74af75c243bfe6af996bf50ba6eadbd5fb8846306d6d421208e637bc9598aa20b72e40b676ea4",
+            "sha1_hash": "3e9c7b5a45c356ff5fc1e99b5d644b8f5e378a5d",
+            "md5_hash": "1417151ea6ccb36b9aebab3c63e63b76",
+            "first_seen": "2021-12-09 13:56:13",
+            "last_seen": null,
+            "file_name": "yellowtank.png",
+            "file_size": 1821184,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "pr0xylife",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "c131e7ab95b6cc6ff4c2379d5b0fc4ad",
+            "tlsh": "T1F98535F1DBDA8B5FACCC986163020A7A51CA07678D45879AD0BC53FC787D982CC6BC52",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "1536:sjkUHInOKVU9vFhgD6wK1LhsfAWs\/g9UhwtV\/IeQ\/HQljEqt:sjFiDgL+C\/3hwXfuwJt",
+            "magika": null,
+            "dhash_icon": null,
+            "trid": null,
+            "tags": [
+                "dll",
+                "rob142",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": null,
+                "downloads": "773",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "12086cdc5bcec06d1b8b549784a1b46fbe1a18a8330aff3fd4ed164e0ae1e9a9",
+            "sha3_384_hash": "97246c760fae457d735171cb9b6b4a93e0667bb2ad21e42d51ce0deca87c5b1b6f1865579d0ae8fdc994881aaf100685",
+            "sha1_hash": "d782af768518837f4788ecd2910204da813c686b",
+            "md5_hash": "651d2d8853d25171e8e7ea735de0d104",
+            "first_seen": "2021-12-09 13:38:34",
+            "last_seen": null,
+            "file_name": "651d2d8853d25171e8e7ea735de0d104.dll",
+            "file_size": 450560,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "abuse_ch",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "e768cc53caa0b68006b0ded6604c348d",
+            "tlsh": "T1C0A4D00272E0C035C2EF133D19269B1967BBFD20DB7586CB2751BE9EAE346D18939352",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:v5+iRFTkRhO9SEPtZtfherliYSuTNpBRaj4gzaxCdKJjWJFWMaDTX3H:JFTkatZTm4EBpL0zacMScx7",
+            "magika": null,
+            "dhash_icon": "71b119dcce576333",
+            "trid": null,
+            "tags": [
+                "dll",
+                "rob141",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.Agent.FQNG.10264.29910.UNOFFICIAL"
+                ],
+                "downloads": "732",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "ecebd962cd96072dbe852befb2ee4fec6d25e330c63349dabdc4f279b21d7027",
+            "sha3_384_hash": "787890482667f8dca3c83b7538a80435fa06576c002643c0c88e0a349e6ea6c9cd266f9b1fc1a1ebf8f7c618e8e69c31",
+            "sha1_hash": "9e1091a8a1b28f591bddfcf52e542827611d444b",
+            "md5_hash": "796728076326f8c747578b0284dd079f",
+            "first_seen": "2021-12-08 23:37:55",
+            "last_seen": null,
+            "file_name": "796728076326f8c747578b0284dd079f",
+            "file_size": 419840,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "zbetcheckin",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "979c24149674ffe2c511255552b86b69",
+            "tlsh": "T1B794DF2021D0C072D167247D8676C6B24B3B7C61ABA1E9CF7FC52A795F343D2C62835A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:geRcUQM8GQIkuMp0SY6f975HyHxiwBNM9GyMGuhraQj8TdIThO5qXS:hRcUQM8GfkuMp0WPyR\/kjfttTQhO",
+            "magika": null,
+            "dhash_icon": "c0b1a0b2b4b434f4",
+            "trid": null,
+            "tags": [
+                "32",
+                "dll",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.KillProc2.17101.2367.6238.UNOFFICIAL"
+                ],
+                "downloads": "751",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "82f54e902535c71d4ad8dae0da360528cf552bb183661774aa1f8af570888dd0",
+            "sha3_384_hash": "34407bf2da8cdfa5b392375dc231db64340a17a6c5eb675e9af565a9f8fde78b8a6838d15e499014155775f450fcb173",
+            "sha1_hash": "45553e82bb10381a6a82b02b1a4f89922d27e6eb",
+            "md5_hash": "fb754b86aa10c379357a58695a05fc29",
+            "first_seen": "2021-12-08 22:49:59",
+            "last_seen": null,
+            "file_name": "fb754b86aa10c379357a58695a05fc29",
+            "file_size": 450560,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "zbetcheckin",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "e768cc53caa0b68006b0ded6604c348d",
+            "tlsh": "T1A4A4D00272E0C035C2EF133D19269B1967BBFD20DB7586CB2751BE9EAE346D18939352",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:v5+iRFTkRhO9SEJtZtfherliYSuTNpBRaj4gzaxCdKJjWJFWMaDTX3H:JFTkktZTm4EBpL0zacMScx7",
+            "magika": null,
+            "dhash_icon": "71b119dcce576333",
+            "trid": null,
+            "tags": [
+                "32",
+                "dll",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.Agent.FQNG.10264.29910.UNOFFICIAL"
+                ],
+                "downloads": "739",
+                "uploads": "1",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "81a165e0bad4e959de9fabf5035ff10470a5568afb4337c6bd38a0a7054a025e",
+            "sha3_384_hash": "735da7bf63dd7b6fad1a8216bee1d33c4e464b945aa6343a8d6f339353a92fc9bce81b3db6fc9589a40753b0f3f01a0d",
+            "sha1_hash": "a092e935cc84f5e85f45ac148c0f534b9d91ca50",
+            "md5_hash": "208c8c90a3b598fae18307a68251ba73",
+            "first_seen": "2021-12-08 22:04:41",
+            "last_seen": "2021-12-09 00:26:16",
+            "file_name": "208c8c90a3b598fae18307a68251ba73",
+            "file_size": 419840,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "zbetcheckin",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "979c24149674ffe2c511255552b86b69",
+            "tlsh": "T13F94DF2021D0C072D167247C8676C6B64B3B7C65ABA1E9CF7FC52A795F343D2C62835A",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:geRcUQM8GQIkuMp0Sf6f975HyHxiwBNM9GyMGuhraQj8TdIThO5qXS:hRcUQM8GfkuMp0NPyR\/kjfttTQhO",
+            "magika": null,
+            "dhash_icon": "c0b1a0b2b4b434f4",
+            "trid": null,
+            "tags": [
+                "32",
+                "dll",
+                "exe",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.KillProc2.17101.11311.32746.UNOFFICIAL"
+                ],
+                "downloads": "750",
+                "uploads": "2",
+                "mail": null
+            }
+        },
+        {
+            "sha256_hash": "b7d072487f5ce621e5de0c6b4853a70c76b81e64ff282e29812f0e2301161ce5",
+            "sha3_384_hash": "956609649bd95ee1e0b92748d17a46299d9094caf2b586c3dd7919634ce172bf987443481a6618aa9d81a11433801d5e",
+            "sha1_hash": "2b663f51921f46fce58061fca37abe64f8d305a2",
+            "md5_hash": "3af77bc9d02fe9757df2dfc52db0836d",
+            "first_seen": "2021-12-08 05:34:21",
+            "last_seen": null,
+            "file_name": "SecuriteInfo.com.Trojan.Agent.FQNG.25854.6030",
+            "file_size": 450560,
+            "file_type_mime": "application\/x-dosexec",
+            "file_type": "dll",
+            "reporter": "SecuriteInfoCom",
+            "anonymous": 0,
+            "signature": "TrickBot",
+            "imphash": "e768cc53caa0b68006b0ded6604c348d",
+            "tlsh": "T1C6A4D00272E0C035C2EF133D19269B1967BBFD20DB7586CB2751BE9EAE346D18939352",
+            "telfhash": null,
+            "gimphash": null,
+            "ssdeep": "6144:v5+iRFTkRhO9SEutZtfherliYSuTNpBRaj4gzaxCdKJjWJFWMaDTX3H:JFTk\/tZTm4EBpL0zacMScx7",
+            "magika": null,
+            "dhash_icon": "71b119dcce576333",
+            "trid": null,
+            "tags": [
+                "dll",
+                "TrickBot"
+            ],
+            "code_sign": [],
+            "intelligence": {
+                "clamav": [
+                    "SecuriteInfo.com.Trojan.Agent.FQNG.25854.6030.UNOFFICIAL"
+                ],
+                "downloads": "763",
+                "uploads": "1",
+                "mail": null
+            }
+        }
+    ]
+}

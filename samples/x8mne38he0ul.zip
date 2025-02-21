@@ -1,0 +1,4 @@
+{
+    "query_status": "error",
+    "message": "Your sample download requests has been ratelimited. Please refer to https:\/\/bazaar.abuse.ch\/faq\/#api-limit"
+}

@@ -22,10 +22,10 @@ pip install -r requirements.txt
 with docker image
 
 ```
-wget https://raw.githubusercontent.com/nltt-br/GetSampleMB/refs/heads/main/Dockerfile
-docker build -t GetSampleMB .
-docker run --rm GetSampleMB example_params
-
+wget https://raw.githubusercontent.com/andsilv0/GetSampleMB/refs/heads/main/Dockerfile
+echo "AUTH='yourauth'" >> .env
+docker build -t getsamplemb .
+docker run --rm getsamplemb paramsx paramsy
 ```
 
 ![](Usage.png)

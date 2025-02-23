@@ -3,7 +3,7 @@
 # Date: February 19, 2025
 # Version: v1.0
 
-from requests import post
+from requests import post, exceptions
 from argparse import ArgumentParser
 from os import getenv
 from json import dumps
@@ -14,11 +14,15 @@ from os import getcwd
 from colorama import init, Fore, Back, Style
 from os import makedirs,path
 from zipfile import ZipFile
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 
 init()
 
 class GetSample():
-    def __init__(self, limit=2, option=False):
+    def __init__(self, limit=2, option=False, proxy=False):
+        self.proxy = proxy
         self.limit = limit
         self.option = option
         self.url = 'https://mb-api.abuse.ch/api/v1/'
@@ -51,6 +55,22 @@ class GetSample():
         """
         print(Fore.GREEN + f'{var}')
 
+    def send_to_proxy(self, data, proxy_url, target_url):   
+
+        proxies = {
+            "http": proxy_url, 
+            "https": proxy_url
+        }
+
+        req = []
+
+        try:
+            req = post(target_url, data=data, headers=self.headers, proxies=proxies, verify=False)
+        except exceptions.RequestException as e:
+            print(f"Erro ao enviar dados para o proxy: {e}")
+
+        return req
+
     def search(self, query_type, query_value):
         print('0 - Define local variables')
         capture_values = {}
@@ -69,9 +89,13 @@ class GetSample():
 
         try:
             print(f'1 - Request to MalwareBaazar for {query_type}')
-            req = post(self.url, data=data, headers=self.headers)
 
-            if req.status_code == 200:
+            if (self.proxy):
+                req = self.send_to_proxy(data, self.proxy, self.url)
+            else:
+                req = post(self.url, data=data, headers=self.headers)
+
+            if req.status_code == 200 and "ok" in req.content.decode():
                 saves = req.json()
                 print('2 - Loop to store the values ​​found')
                 for save in saves.get('data', []):
@@ -151,6 +175,7 @@ def main():
 
     parser.add_argument("-t", "--tag", type=str, help="Search by tag (example: TrickBot)")
     parser.add_argument("-l", "--limit", type=int, default=2, help="Number of search results, default two")
+    parser.add_argument("-p", "--proxy", type=str, help="Proxy URL (example: http://127.0.0.1:8080)")
     parser.add_argument("-f", "--file_type", type=str, help="Search by file extension")
     parser.add_argument("-ha", "--hash", type=str, help="Search by file hash")
     parser.add_argument("-o", "--option", action="store_true", help="Enables downloading of the result in json format")
@@ -158,7 +183,7 @@ def main():
 
     args = parser.parse_args()
 
-    GetSampleObj = GetSample(args.limit, args.option)
+    GetSampleObj = GetSample(args.limit, args.option, args.proxy)
     GetSampleObj.banner()
 
     if args.download:

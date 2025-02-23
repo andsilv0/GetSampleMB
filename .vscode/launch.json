@@ -11,7 +11,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["-f", "exe", "-d"]
+            "args": ["-f", "exe", "-p", "http://localhost:8080"]
         }
     ]
 }

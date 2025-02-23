@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 with docker image
-
+in steps three and four use user permission docker group
 ```
 wget https://raw.githubusercontent.com/andsilv0/GetSampleMB/refs/heads/main/Dockerfile
 echo "AUTH='yourauth'" >> .env
@@ -45,6 +45,8 @@ docker run --rm getsamplemb paramsx paramsy
 ### Search by hash, by default the last two most recent values ​​and also prompts for sample download
 `python GetSampleMB.py -ha 7de2c1bf58bce09eecc70476747d88a26163c3d6bb1d85235c24a558d1f16754 -d`
 
+### Search by tag, by default the last two most recent values with docker
+docker run --rm getsamplemb -t TrickBot
 
 
 ## Limitations 

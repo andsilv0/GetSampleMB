@@ -3,6 +3,7 @@
 # Date: February 19, 2025
 # Version: v1.0
 
+from dotenv import load_dotenv
 from requests import post, exceptions
 from argparse import ArgumentParser
 from os import getenv
@@ -17,7 +18,7 @@ from zipfile import ZipFile
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-
+load_dotenv()
 init()
 
 class GetSample():

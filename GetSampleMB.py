@@ -139,22 +139,21 @@ class GetSample():
         """
 
         query_map = {
-            "hash": {"query": "get_file", "param": "sha256_hash"},
-            "tag": {"query": "get_taginfo", "param": "tag"},
-            "file_type": {"query": "get_file_type", "param": "file_type"}
+            "hash": {"query": "get_file", "param": "sha256_hash"}
         }
 
         if query_type not in query_map:
             print(f"Invalid query type: {query_type}")
             return
 
-        data = {"query": "get_file", query_map[query_type]["query"]:query_value}
+
+        data = {"query": query_map[query_type]["query"], query_map[query_type]["param"]:query_value}
 
         try:
             print(f'1 - Requesting MalwareBaazar for {query_type} sample download')
             req = post(self.url, data=data, headers=self.headers)
 
-            if req.status_code == 200 and "limited" not in req.content.decode('utf-8'):
+            if req.status_code == 200 and "limited" not in req.content.decode('utf-8', errors='ignore'):
                 file_name = f"{query_value}.zip" if query_type == "hash" else self.generate_file_name() + ".zip"
                 file_path = f"{self.current_path}/samples/{file_name}"
 
@@ -180,7 +179,7 @@ def main():
     parser.add_argument("-f", "--file_type", type=str, help="Search by file extension")
     parser.add_argument("-ha", "--hash", type=str, help="Search by file hash")
     parser.add_argument("-o", "--option", action="store_true", help="Enables downloading of the result in json format")
-    parser.add_argument("-d", "--download", action="store_true", help="Download sample for given hash, tag, or file type")
+    parser.add_argument("-d", "--download", action="store_true", help="Download sample for given hash")
 
     args = parser.parse_args()
 
@@ -190,10 +189,6 @@ def main():
     if args.download:
         if args.hash:
             GetSampleObj.download_sample("hash", args.hash)
-        elif args.tag:
-            GetSampleObj.download_sample("tag", args.tag)
-        elif args.file_type:
-            GetSampleObj.download_sample("file_type", args.file_type)
         else:
             print("No valid parameter provided for sample download.")
 
